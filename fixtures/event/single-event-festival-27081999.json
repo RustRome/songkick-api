@@ -1,0 +1,572 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "event": {
+        "type": "Festival",
+        "status": "ok",
+        "popularity": 0.278898,
+        "displayName": "Pitchfork Music Festival Paris 2016",
+        "series": {
+          "displayName": "Pitchfork Music Festival Paris"
+        },
+        "start": {
+          "datetime": "2016-10-27T17:00:00+0200",
+          "time": "17:00:00",
+          "date": "2016-10-27"
+        },
+        "ageRestriction": null,
+        "end": {
+          "datetime": null,
+          "time": null,
+          "date": "2016-10-29"
+        },
+        "location": {
+          "city": "Paris, France",
+          "lat": 48.8890923,
+          "lng": 2.394432
+        },
+        "uri": "http://www.songkick.com/festivals/287608/id/27081999-pitchfork-music-festival-paris-2016?utm_source=24619&utm_medium=partner",
+        "id": 27081999,
+        "performance": [
+          {
+            "billingIndex": 1,
+            "artist": {
+              "displayName": "M.I.A",
+              "uri": "http://www.songkick.com/artists/493293-mia?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:50fd0dd8-330a-4197-bfa0-28e98688ed72.json",
+                  "mbid": "50fd0dd8-330a-4197-bfa0-28e98688ed72"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:5f6be871-eb98-42f1-bce4-5a3d8212c281.json",
+                  "mbid": "5f6be871-eb98-42f1-bce4-5a3d8212c281"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:7a7a92dc-be72-43f1-9951-2d758ca84996.json",
+                  "mbid": "7a7a92dc-be72-43f1-9951-2d758ca84996"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:7ffd278a-99ff-4553-a722-52d51c83720b.json",
+                  "mbid": "7ffd278a-99ff-4553-a722-52d51c83720b"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:397c165b-aadc-412f-ac6d-df9faa82161c.json",
+                  "mbid": "397c165b-aadc-412f-ac6d-df9faa82161c"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:993230af-eadf-4f93-8b2d-4d4d8ed5de78.json",
+                  "mbid": "993230af-eadf-4f93-8b2d-4d4d8ed5de78"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:307708a9-f93b-4c43-9dab-4128a245a494.json",
+                  "mbid": "307708a9-f93b-4c43-9dab-4128a245a494"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:6a0f0a74-8689-4bf6-aa8e-6a954ac5f0cb.json",
+                  "mbid": "6a0f0a74-8689-4bf6-aa8e-6a954ac5f0cb"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:7cf0ea9d-86b9-4dad-ba9e-2355a64899ea.json",
+                  "mbid": "7cf0ea9d-86b9-4dad-ba9e-2355a64899ea"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:b22d45dd-deae-4663-a782-542db02e25cf.json",
+                  "mbid": "b22d45dd-deae-4663-a782-542db02e25cf"
+                }
+              ],
+              "id": 493293
+            },
+            "displayName": "M.I.A",
+            "id": 52928459,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 2,
+            "artist": {
+              "displayName": "Chet Faker",
+              "uri": "http://www.songkick.com/artists/4898523-chet-faker?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:b6631866-c5aa-4ea8-9c34-5be1266a51ae.json",
+                  "mbid": "b6631866-c5aa-4ea8-9c34-5be1266a51ae"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:37bb1e65-e4ad-4e26-a460-f322f01ebb13.json",
+                  "mbid": "37bb1e65-e4ad-4e26-a460-f322f01ebb13"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:0fb267e2-7175-4537-a9f2-e835ecc81ff7.json",
+                  "mbid": "0fb267e2-7175-4537-a9f2-e835ecc81ff7"
+                }
+              ],
+              "id": 4898523
+            },
+            "displayName": "Chet Faker",
+            "id": 52928469,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 3,
+            "artist": {
+              "displayName": "Explosions in the Sky",
+              "uri": "http://www.songkick.com/artists/561284-explosions-in-the-sky?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:4236acde-2ce2-441c-a3d4-38d55f1b5474.json",
+                  "mbid": "4236acde-2ce2-441c-a3d4-38d55f1b5474"
+                }
+              ],
+              "id": 561284
+            },
+            "displayName": "Explosions in the Sky",
+            "id": 53332804,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 4,
+            "artist": {
+              "displayName": "Bat For Lashes",
+              "uri": "http://www.songkick.com/artists/130039-bat-for-lashes?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:10000730-525f-4ed5-aaa8-92888f060f5f.json",
+                  "mbid": "10000730-525f-4ed5-aaa8-92888f060f5f"
+                }
+              ],
+              "id": 130039
+            },
+            "displayName": "Bat For Lashes",
+            "id": 52928479,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 5,
+            "artist": {
+              "displayName": "DJ Shadow",
+              "uri": "http://www.songkick.com/artists/384058-dj-shadow?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:efa2c11a-1a35-4b60-bc1b-66d37de88511.json",
+                  "mbid": "efa2c11a-1a35-4b60-bc1b-66d37de88511"
+                }
+              ],
+              "id": 384058
+            },
+            "displayName": "DJ Shadow",
+            "id": 52928474,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 6,
+            "artist": {
+              "displayName": "Warpaint",
+              "uri": "http://www.songkick.com/artists/715080-warpaint?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:cf82a38f-9413-4333-bacb-ca5b6db95794.json",
+                  "mbid": "cf82a38f-9413-4333-bacb-ca5b6db95794"
+                }
+              ],
+              "id": 715080
+            },
+            "displayName": "Warpaint",
+            "id": 53332814,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 7,
+            "artist": {
+              "displayName": "Moderat",
+              "uri": "http://www.songkick.com/artists/2379286-moderat?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:7754905b-8bf7-48e2-935a-03d566fec464.json",
+                  "mbid": "7754905b-8bf7-48e2-935a-03d566fec464"
+                }
+              ],
+              "id": 2379286
+            },
+            "displayName": "Moderat",
+            "id": 52928464,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 8,
+            "artist": {
+              "displayName": "Mount Kimbie",
+              "uri": "http://www.songkick.com/artists/2444656-mount-kimbie?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:4a3a5fc0-af4b-4990-957b-8d94f7bfe706.json",
+                  "mbid": "4a3a5fc0-af4b-4990-957b-8d94f7bfe706"
+                }
+              ],
+              "id": 2444656
+            },
+            "displayName": "Mount Kimbie",
+            "id": 53108624,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 9,
+            "artist": {
+              "displayName": "Todd Terje",
+              "uri": "http://www.songkick.com/artists/586402-todd-terje?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:a0cded3a-4ca3-4ddb-8e46-ed9037f30aea.json",
+                  "mbid": "a0cded3a-4ca3-4ddb-8e46-ed9037f30aea"
+                }
+              ],
+              "id": 586402
+            },
+            "displayName": "Todd Terje",
+            "id": 53862809,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 10,
+            "artist": {
+              "displayName": "Parquet Courts",
+              "uri": "http://www.songkick.com/artists/3824306-parquet-courts?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:e01755e3-58ab-4a5b-a9e9-a0a3bd3dff4c.json",
+                  "mbid": "e01755e3-58ab-4a5b-a9e9-a0a3bd3dff4c"
+                }
+              ],
+              "id": 3824306
+            },
+            "displayName": "Parquet Courts",
+            "id": 53108639,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 11,
+            "artist": {
+              "displayName": "Floating Points",
+              "uri": "http://www.songkick.com/artists/2486306-floating-points?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97.json",
+                  "mbid": "69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97"
+                }
+              ],
+              "id": 2486306
+            },
+            "displayName": "Floating Points",
+            "id": 53332809,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 12,
+            "artist": {
+              "displayName": "Suuns",
+              "uri": "http://www.songkick.com/artists/3331681-suuns?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:f2394946-07cc-4af7-8d77-58fea451dd59.json",
+                  "mbid": "f2394946-07cc-4af7-8d77-58fea451dd59"
+                }
+              ],
+              "id": 3331681
+            },
+            "displayName": "Suuns",
+            "id": 53108629,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 13,
+            "artist": {
+              "displayName": "Daphni",
+              "uri": "http://www.songkick.com/artists/5879539-daphni?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:859216c4-5d01-479b-b6c3-e20cc591a86a.json",
+                  "mbid": "859216c4-5d01-479b-b6c3-e20cc591a86a"
+                }
+              ],
+              "id": 5879539
+            },
+            "displayName": "Daphni",
+            "id": 52928484,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 14,
+            "artist": {
+              "displayName": "Porches",
+              "uri": "http://www.songkick.com/artists/593368-porches?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:40a6d66b-8a96-45c8-838c-dd0c346c45ce.json",
+                  "mbid": "40a6d66b-8a96-45c8-838c-dd0c346c45ce"
+                }
+              ],
+              "id": 593368
+            },
+            "displayName": "Porches",
+            "id": 53332819,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 15,
+            "artist": {
+              "displayName": "Motor City Drum Ensemble",
+              "uri": "http://www.songkick.com/artists/1678228-motor-city-drum-ensemble?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:0323f501-4b5e-4682-a062-e60f6212f9c3.json",
+                  "mbid": "0323f501-4b5e-4682-a062-e60f6212f9c3"
+                }
+              ],
+              "id": 1678228
+            },
+            "displayName": "Motor City Drum Ensemble",
+            "id": 53332839,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 16,
+            "artist": {
+              "displayName": "Tale of Us",
+              "uri": "http://www.songkick.com/artists/4125576-tale-of-us?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:88c36329-925d-42df-981e-d5df479da2aa.json",
+                  "mbid": "88c36329-925d-42df-981e-d5df479da2aa"
+                }
+              ],
+              "id": 4125576
+            },
+            "displayName": "Tale of Us",
+            "id": 53862819,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 17,
+            "artist": {
+              "displayName": "Whitney",
+              "uri": "http://www.songkick.com/artists/49377-whitney?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:c8adeb75-8ec5-4b0f-a5d3-13e87da1d19a.json",
+                  "mbid": "c8adeb75-8ec5-4b0f-a5d3-13e87da1d19a"
+                }
+              ],
+              "id": 49377
+            },
+            "displayName": "Whitney",
+            "id": 53862834,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 18,
+            "artist": {
+              "displayName": "Brandt Brauer Frick",
+              "uri": "http://www.songkick.com/artists/3249246-brandt-brauer-frick?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:3aa850f7-7a16-4bc9-8d67-7c16220ca4b3.json",
+                  "mbid": "3aa850f7-7a16-4bc9-8d67-7c16220ca4b3"
+                }
+              ],
+              "id": 3249246
+            },
+            "displayName": "Brandt Brauer Frick",
+            "id": 53332849,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 19,
+            "artist": {
+              "displayName": "C Duncan",
+              "uri": "http://www.songkick.com/artists/8454973-c-duncan?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:e4f5617d-0f9f-4548-bc41-840b492ea190.json",
+                  "mbid": "e4f5617d-0f9f-4548-bc41-840b492ea190"
+                }
+              ],
+              "id": 8454973
+            },
+            "displayName": "C Duncan",
+            "id": 53862814,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 20,
+            "artist": {
+              "displayName": "ABRA",
+              "uri": "http://www.songkick.com/artists/8600744-abra?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:8361051c-6107-4901-9d75-72649346f2a2.json",
+                  "mbid": "8361051c-6107-4901-9d75-72649346f2a2"
+                }
+              ],
+              "id": 8600744
+            },
+            "displayName": "ABRA",
+            "id": 53332834,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 21,
+            "artist": {
+              "displayName": "Joey Purp",
+              "uri": "http://www.songkick.com/artists/7028069-joey-purp?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:4fb6cf2d-9524-4580-b351-73d0f1d6c559.json",
+                  "mbid": "4fb6cf2d-9524-4580-b351-73d0f1d6c559"
+                }
+              ],
+              "id": 7028069
+            },
+            "displayName": "Joey Purp",
+            "id": 53862839,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 22,
+            "artist": {
+              "displayName": "Minor Victories",
+              "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                  "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                }
+              ],
+              "id": 8723454
+            },
+            "displayName": "Minor Victories",
+            "id": 52928489,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 23,
+            "artist": {
+              "displayName": "Bonzai",
+              "uri": "http://www.songkick.com/artists/163332-bonzai?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:bd33ef33-4c3d-4fac-b1cd-62709931ff42.json",
+                  "mbid": "bd33ef33-4c3d-4fac-b1cd-62709931ff42"
+                }
+              ],
+              "id": 163332
+            },
+            "displayName": "Bonzai",
+            "id": 53332844,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 24,
+            "artist": {
+              "displayName": "Avelino",
+              "uri": "http://www.songkick.com/artists/8324023-avelino?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:d25cef7f-9d15-4f2f-aa74-818efb802c42.json",
+                  "mbid": "d25cef7f-9d15-4f2f-aa74-818efb802c42"
+                }
+              ],
+              "id": 8324023
+            },
+            "displayName": "Avelino",
+            "id": 53332854,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 25,
+            "artist": {
+              "displayName": "Acid Arab",
+              "uri": "http://www.songkick.com/artists/7027899-acid-arab?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:f32e763e-be49-44e2-bde0-27c8e5686992.json",
+                  "mbid": "f32e763e-be49-44e2-bde0-27c8e5686992"
+                }
+              ],
+              "id": 7027899
+            },
+            "displayName": "Acid Arab",
+            "id": 53862824,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 26,
+            "artist": {
+              "displayName": "Shame",
+              "uri": "http://www.songkick.com/artists/134405-shame?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:d287787d-1772-4402-92fd-102e481a3557.json",
+                  "mbid": "d287787d-1772-4402-92fd-102e481a3557"
+                },
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:c5412d41-1e3f-47f4-946e-d135b53f23d5.json",
+                  "mbid": "c5412d41-1e3f-47f4-946e-d135b53f23d5"
+                }
+              ],
+              "id": 134405
+            },
+            "displayName": "Shame",
+            "id": 53862829,
+            "billing": "headline"
+          },
+          {
+            "billingIndex": 27,
+            "artist": {
+              "displayName": "Aldous RH",
+              "uri": "http://www.songkick.com/artists/7640529-aldous-rh?utm_source=24619&utm_medium=partner",
+              "identifier": [
+                {
+                  "href": "http://api.songkick.com/api/3.0/artists/mbid:709dc8f1-3616-47f4-a00a-a66f34a3cef9.json",
+                  "mbid": "709dc8f1-3616-47f4-a00a-a66f34a3cef9"
+                }
+              ],
+              "id": 7640529
+            },
+            "displayName": "Aldous RH",
+            "id": 53862804,
+            "billing": "headline"
+          }
+        ],
+        "venue": {
+          "lng": 2.394432,
+          "street": "211, avenue Jean Jaurès",
+          "zip": "75019",
+          "website": "http://www.villette.com/",
+          "description": "",
+          "phone": "01 40 03 75 75",
+          "displayName": "Grande Halle de la Villette",
+          "metroArea": {
+            "displayName": "Paris",
+            "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=24619&utm_medium=partner",
+            "id": 28909,
+            "country": {
+              "displayName": "France"
+            }
+          },
+          "capacity": null,
+          "city": {
+            "displayName": "Paris",
+            "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=24619&utm_medium=partner",
+            "id": 28909,
+            "country": {
+              "displayName": "France"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/592971-grande-halle-de-la-villette?utm_source=24619&utm_medium=partner",
+          "id": 592971,
+          "lat": 48.8890923
+        }
+      }
+    }
+  }
+}

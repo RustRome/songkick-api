@@ -1,0 +1,20 @@
+[package]
+name = "songkick"
+version = "0.1.0"
+description = "Rust library for SongKick API"
+authors = ["Enrico Risa <enrico.risa@gmail.com>"]
+repository = "https://gitlab.com/wolf4ood/songkick-api"
+license = "MIT"
+keywords = ["SongKick", "Concerts", "Music"]
+
+
+[dependencies]
+url = "*"
+hyper = "0.9.10"
+serde = "*"
+serde_json = "*"
+
+
+[dev-dependencies]
+prettytable-rs = "*"
+shrust = "*"

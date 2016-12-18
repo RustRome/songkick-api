@@ -1,0 +1,102 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "artist": [
+        {
+          "onTourUntil": "2016-12-15",
+          "displayName": "Placebo",
+          "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+          "identifier": [
+            {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+              "eventsHref": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c/calendar.json",
+              "setlistsHref": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c/setlists.json",
+              "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+            },
+            {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+              "eventsHref": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57/calendar.json",
+              "setlistsHref": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57/setlists.json",
+              "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+            }
+          ],
+          "id": 324967
+        },
+        {
+          "onTourUntil": null,
+          "displayName": "Placebo Effect",
+          "uri": "http://www.songkick.com/artists/8918-placebo-effect?utm_source=24619&utm_medium=partner",
+          "identifier": [
+            {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:03a0f418-4115-4ca9-a138-bcce4848ac61.json",
+              "eventsHref": "http://api.songkick.com/api/3.0/artists/mbid:03a0f418-4115-4ca9-a138-bcce4848ac61/calendar.json",
+              "setlistsHref": "http://api.songkick.com/api/3.0/artists/mbid:03a0f418-4115-4ca9-a138-bcce4848ac61/setlists.json",
+              "mbid": "03a0f418-4115-4ca9-a138-bcce4848ac61"
+            }
+          ],
+          "id": 8918
+        },
+        {
+          "onTourUntil": null,
+          "displayName": "Placebo Improtheater",
+          "uri": "http://www.songkick.com/artists/3541571-placebo-improtheater?utm_source=24619&utm_medium=partner",
+          "identifier": [],
+          "id": 3541571
+        },
+        {
+          "uri": "http://www.songkick.com/artists/3569556-effetto-placebo?utm_source=24619&utm_medium=partner",
+          "onTourUntil": null,
+          "identifier": [],
+          "displayName": "Effetto Placebo",
+          "id": 3569556
+        },
+        {
+          "identifier": [],
+          "uri": "http://www.songkick.com/artists/3089041-this-placebo?utm_source=24619&utm_medium=partner",
+          "onTourUntil": null,
+          "displayName": "This Placebo",
+          "id": 3089041
+        },
+        {
+          "identifier": [],
+          "uri": "http://www.songkick.com/artists/2614426-placebo-in-ahoy?utm_source=24619&utm_medium=partner",
+          "onTourUntil": null,
+          "displayName": "Placebo in Ahoy",
+          "id": 2614426
+        },
+        {
+          "identifier": [],
+          "uri": "http://www.songkick.com/artists/2988771-antwerps-placebo?utm_source=24619&utm_medium=partner",
+          "onTourUntil": null,
+          "displayName": "Antwerp's Placebo",
+          "id": 2988771
+        },
+        {
+          "identifier": [],
+          "displayName": "Placebo Group",
+          "onTourUntil": null,
+          "uri": "http://www.songkick.com/artists/7115214-placebo-group?utm_source=24619&utm_medium=partner",
+          "id": 7115214
+        },
+        {
+          "displayName": "Audio Placebo",
+          "identifier": [],
+          "uri": "http://www.songkick.com/artists/7507854-audio-placebo?utm_source=24619&utm_medium=partner",
+          "onTourUntil": null,
+          "id": 7507854
+        },
+        {
+          "identifier": [],
+          "uri": "http://www.songkick.com/artists/7766664-dj-placebo-and-kai?utm_source=24619&utm_medium=partner",
+          "displayName": "DJ Placebo & Kai",
+          "id": 7766664,
+          "onTourUntil": null
+        }
+      ]
+    },
+    "perPage": 50,
+    "page": 1,
+    "totalEntries": 10
+  }
+}

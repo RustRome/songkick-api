@@ -1,0 +1,74 @@
+{
+  "type": "Concert",
+  "status": "ok",
+  "popularity": 0.156595,
+  "displayName": "Placebo with The Mirror Trap at Sentrum Scene (October 16, 2016)",
+  "start": {
+    "datetime": "2016-10-16T19:00:00+0000",
+    "time": "19:00:00",
+    "date": "2016-10-16"
+  },
+  "ageRestriction": null,
+  "location": {
+    "city": "Oslo, Norway",
+    "lat": 59.9155184,
+    "lng": 10.7518051
+  },
+  "uri": "http://www.songkick.com/concerts/26486224-placebo-at-sentrum-scene?utm_source=24619&utm_medium=partner",
+  "id": 26486224,
+  "performance": [
+    {
+      "billingIndex": 1,
+      "artist": {
+        "displayName": "Placebo",
+        "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+        "identifier": [
+          {
+            "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+            "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+          },
+          {
+            "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+            "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+          }
+        ],
+        "id": 324967
+      },
+      "displayName": "Placebo",
+      "id": 51721634,
+      "billing": "headline"
+    },
+    {
+      "billingIndex": 2,
+      "artist": {
+        "displayName": "The Mirror Trap",
+        "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+        "identifier": [
+          {
+            "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+            "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+          }
+        ],
+        "id": 3100651
+      },
+      "displayName": "The Mirror Trap",
+      "id": 54146899,
+      "billing": "support"
+    }
+  ],
+  "venue": {
+    "metroArea": {
+      "displayName": "Oslo",
+      "uri": "http://www.songkick.com/metro_areas/31422-norway-oslo?utm_source=24619&utm_medium=partner",
+      "country": {
+        "displayName": "Norway"
+      },
+      "id": 31422
+    },
+    "displayName": "Sentrum Scene",
+    "lat": 59.9155184,
+    "lng": 10.7518051,
+    "uri": "http://www.songkick.com/venues/33495-sentrum-scene?utm_source=24619&utm_medium=partner",
+    "id": 33495
+  }
+}

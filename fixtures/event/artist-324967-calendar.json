@@ -1,0 +1,2420 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "event": [
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Cirkus (October 18, 2016)",
+          "start": {
+            "datetime": "2016-10-18T19:30:00+0200",
+            "time": "19:30:00",
+            "date": "2016-10-18"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Stockholm, Sweden",
+            "lat": 59.3245767,
+            "lng": 18.0996982
+          },
+          "uri": "http://www.songkick.com/concerts/26486294-placebo-at-cirkus?utm_source=24619&utm_medium=partner",
+          "id": 26486294,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721719,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146904,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Stockholm",
+              "uri": "http://www.songkick.com/metro_areas/32252-sweden-stockholm?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Sweden"
+              },
+              "id": 32252
+            },
+            "displayName": "Cirkus",
+            "lat": 59.3245767,
+            "lng": 18.0996982,
+            "uri": "http://www.songkick.com/venues/43123-cirkus?utm_source=24619&utm_medium=partner",
+            "id": 43123
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Hartwall Arena (October 20, 2016)",
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2016-10-20"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Helsinki, Finland",
+            "lat": 60.205274,
+            "lng": 24.9301844
+          },
+          "uri": "http://www.songkick.com/concerts/26486139-placebo-at-hartwall-arena?utm_source=24619&utm_medium=partner",
+          "id": 26486139,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721549,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146909,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Helsinki",
+              "uri": "http://www.songkick.com/metro_areas/28825-finland-helsinki?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Finland"
+              },
+              "id": 28825
+            },
+            "displayName": "Hartwall Arena",
+            "lat": 60.205274,
+            "lng": 24.9301844,
+            "uri": "http://www.songkick.com/venues/1023031-hartwall-arena?utm_source=24619&utm_medium=partner",
+            "id": 1023031
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Arēnā Rīga (October 22, 2016)",
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2016-10-22"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Riga, Latvia",
+            "lat": 56.9693411,
+            "lng": 24.1191434
+          },
+          "uri": "http://www.songkick.com/concerts/27029514-placebo-at-arena-riga?utm_source=24619&utm_medium=partner",
+          "id": 27029514,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 52735469,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146914,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Riga",
+              "uri": "http://www.songkick.com/metro_areas/30848-latvia-riga?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Latvia"
+              },
+              "id": 30848
+            },
+            "displayName": "Arēnā Rīga",
+            "lat": 56.9693411,
+            "lng": 24.1191434,
+            "uri": "http://www.songkick.com/venues/46176-arena-riga?utm_source=24619&utm_medium=partner",
+            "id": 46176
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Olimpiski (October 26, 2016)",
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2016-10-26"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Moscow, Russian Federation",
+            "lat": 55.7522,
+            "lng": 37.6156
+          },
+          "uri": "http://www.songkick.com/concerts/26550129-placebo-at-olimpiski?utm_source=24619&utm_medium=partner",
+          "id": 26550129,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51839334,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146919,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Moscow",
+              "uri": "http://www.songkick.com/metro_areas/32051-russian-federation-moscow?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Russian Federation"
+              },
+              "id": 32051
+            },
+            "displayName": "Olimpiski",
+            "lat": null,
+            "lng": null,
+            "uri": "http://www.songkick.com/venues/1585048-olimpiski?utm_source=24619&utm_medium=partner",
+            "id": 1585048
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.157425,
+          "displayName": "Placebo with The Mirror Trap at Torwar (October 29, 2016)",
+          "start": {
+            "datetime": "2016-10-29T20:00:00+0200",
+            "time": "20:00:00",
+            "date": "2016-10-29"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Warsaw, Poland",
+            "lat": 52.25,
+            "lng": 21.0
+          },
+          "uri": "http://www.songkick.com/concerts/26486229-placebo-at-torwar?utm_source=24619&utm_medium=partner",
+          "id": 26486229,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721639,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 53841854,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Warsaw",
+              "uri": "http://www.songkick.com/metro_areas/31787-poland-warsaw?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Poland"
+              },
+              "id": 31787
+            },
+            "displayName": "Torwar",
+            "lat": null,
+            "lng": null,
+            "uri": "http://www.songkick.com/venues/62263-torwar?utm_source=24619&utm_medium=partner",
+            "id": 62263
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Barclaycard Arena (October 31, 2016)",
+          "start": {
+            "datetime": "2016-10-31T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-10-31"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Hamburg, Germany",
+            "lat": 53.5898403,
+            "lng": 9.8987679
+          },
+          "uri": "http://www.songkick.com/concerts/26511954-placebo-at-barclaycard-arena?utm_source=24619&utm_medium=partner",
+          "id": 26511954,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768839,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146924,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Hamburg",
+              "uri": "http://www.songkick.com/metro_areas/28498-germany-hamburg?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28498
+            },
+            "displayName": "Barclaycard Arena",
+            "lat": 53.5898403,
+            "lng": 9.8987679,
+            "uri": "http://www.songkick.com/venues/3025064-barclaycard-arena?utm_source=24619&utm_medium=partner",
+            "id": 3025064
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Mirror Trap at Lanxess Arena (November 2, 2016)",
+          "start": {
+            "datetime": "2016-11-02T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-02"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Cologne, Germany",
+            "lat": 50.9389564,
+            "lng": 6.9841267
+          },
+          "uri": "http://www.songkick.com/concerts/26509914-placebo-at-lanxess-arena?utm_source=24619&utm_medium=partner",
+          "id": 26509914,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51765479,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Mirror Trap",
+                "uri": "http://www.songkick.com/artists/3100651-mirror-trap?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:b5680df1-bccc-4ed5-bb14-e54e5a14c0e7.json",
+                    "mbid": "b5680df1-bccc-4ed5-bb14-e54e5a14c0e7"
+                  }
+                ],
+                "id": 3100651
+              },
+              "displayName": "The Mirror Trap",
+              "id": 54146929,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Cologne",
+              "uri": "http://www.songkick.com/metro_areas/28456-germany-cologne?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28456
+            },
+            "displayName": "Lanxess Arena",
+            "lat": 50.9389564,
+            "lng": 6.9841267,
+            "uri": "http://www.songkick.com/venues/31006-lanxess-arena?utm_source=24619&utm_medium=partner",
+            "id": 31006
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.154946,
+          "displayName": "Placebo at Kleine Olympiahalle (November 4, 2016)",
+          "start": {
+            "datetime": "2016-11-04T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-04"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Munich, Germany",
+            "lat": 48.1800923,
+            "lng": 11.5497532
+          },
+          "uri": "http://www.songkick.com/concerts/26486074-placebo-at-kleine-olympiahalle?utm_source=24619&utm_medium=partner",
+          "id": 26486074,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721459,
+              "billing": "headline"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Munich",
+              "uri": "http://www.songkick.com/metro_areas/28549-germany-munich?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28549
+            },
+            "displayName": "Kleine Olympiahalle",
+            "lat": 48.1800923,
+            "lng": 11.5497532,
+            "uri": "http://www.songkick.com/venues/1294141-kleine-olympiahalle?utm_source=24619&utm_medium=partner",
+            "id": 1294141
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "displayName": "Placebo at Arena Leipzig (November 5, 2016)",
+          "start": {
+            "datetime": "2016-11-05T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-05"
+          },
+          "popularity": 0.161396,
+          "location": {
+            "city": "Leipzig, Germany",
+            "lat": 51.3412854,
+            "lng": 12.3534965
+          },
+          "uri": "http://www.songkick.com/concerts/26486079-placebo-at-arena-leipzig?utm_source=24619&utm_medium=partner",
+          "id": 26486079,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "billing": "headline",
+              "displayName": "Placebo",
+              "id": 51721464
+            }
+          ],
+          "ageRestriction": null,
+          "venue": {
+            "displayName": "Arena Leipzig",
+            "lat": 51.3412854,
+            "metroArea": {
+              "displayName": "Leipzig",
+              "uri": "http://www.songkick.com/metro_areas/28528-germany-leipzig?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28528
+            },
+            "lng": 12.3534965,
+            "uri": "http://www.songkick.com/venues/29657-arena-leipzig?utm_source=24619&utm_medium=partner",
+            "id": 29657
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Mercedes-Benz Arena (November 7, 2016)",
+          "start": {
+            "datetime": "2016-11-07T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-07"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Berlin, Germany",
+            "lat": 52.5059566,
+            "lng": 13.4387365
+          },
+          "uri": "http://www.songkick.com/concerts/26511959-placebo-at-mercedesbenz-arena?utm_source=24619&utm_medium=partner",
+          "id": 26511959,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768844,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146934,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Berlin",
+              "uri": "http://www.songkick.com/metro_areas/28443-germany-berlin?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28443
+            },
+            "displayName": "Mercedes-Benz Arena",
+            "lat": 52.5059566,
+            "lng": 13.4387365,
+            "uri": "http://www.songkick.com/venues/31898-mercedesbenz-arena?utm_source=24619&utm_medium=partner",
+            "id": 31898
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Forum Karlín (November 8, 2016)",
+          "start": {
+            "datetime": "2016-11-08T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-08"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Prague, Czech Republic",
+            "lat": 50.0908242,
+            "lng": 14.4440913
+          },
+          "uri": "http://www.songkick.com/concerts/26486304-placebo-at-forum-karlin?utm_source=24619&utm_medium=partner",
+          "id": 26486304,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721729,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146939,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Prague",
+              "uri": "http://www.songkick.com/metro_areas/28425-czech-republic-prague?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Czech Republic"
+              },
+              "id": 28425
+            },
+            "displayName": "Forum Karlín",
+            "lat": 50.0908242,
+            "lng": 14.4440913,
+            "uri": "http://www.songkick.com/venues/2546309-forum-karlin?utm_source=24619&utm_medium=partner",
+            "id": 2546309
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Papp Laszlo Budapest Sportarena (November 11, 2016)",
+          "start": {
+            "datetime": "2016-11-11T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-11"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Budapest, Hungary",
+            "lat": 47.5027458,
+            "lng": 19.1057853
+          },
+          "uri": "http://www.songkick.com/concerts/26486309-placebo-at-papp-laszlo-budapest-sportarena?utm_source=24619&utm_medium=partner",
+          "id": 26486309,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721734,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146944,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Budapest",
+              "uri": "http://www.songkick.com/metro_areas/29047-hungary-budapest?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Hungary"
+              },
+              "id": 29047
+            },
+            "displayName": "Papp Laszlo Budapest Sportarena",
+            "lat": 47.5027458,
+            "lng": 19.1057853,
+            "uri": "http://www.songkick.com/venues/853871-papp-laszlo-budapest-sportarena?utm_source=24619&utm_medium=partner",
+            "id": 853871
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Wiener Stadthalle - Halle D (November 13, 2016)",
+          "start": {
+            "datetime": "2016-11-13T19:30:00+0100",
+            "time": "19:30:00",
+            "date": "2016-11-13"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Vienna, Austria",
+            "lat": 48.2020089,
+            "lng": 16.3315511
+          },
+          "uri": "http://www.songkick.com/concerts/26525419-placebo-at-wiener-stadthalle-halle-d?utm_source=24619&utm_medium=partner",
+          "id": 26525419,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51793194,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146949,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Vienna",
+              "uri": "http://www.songkick.com/metro_areas/26771-austria-vienna?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Austria"
+              },
+              "id": 26771
+            },
+            "displayName": "Wiener Stadthalle - Halle D",
+            "lat": 48.2020089,
+            "lng": 16.3315511,
+            "uri": "http://www.songkick.com/venues/771576-wiener-stadthalle-halle-d?utm_source=24619&utm_medium=partner",
+            "id": 771576
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156893,
+          "displayName": "Placebo with The Joy Formidable at Mediolanum Forum (November 15, 2016)",
+          "start": {
+            "datetime": "2016-11-15T21:00:00+0100",
+            "time": "21:00:00",
+            "date": "2016-11-15"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Milan, Italy",
+            "lat": 45.4029776,
+            "lng": 9.1309141
+          },
+          "uri": "http://www.songkick.com/concerts/26486149-placebo-at-mediolanum-forum?utm_source=24619&utm_medium=partner",
+          "id": 26486149,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721559,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54023504,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Milan",
+              "uri": "http://www.songkick.com/metro_areas/30338-italy-milan?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Italy"
+              },
+              "id": 30338
+            },
+            "displayName": "Mediolanum Forum",
+            "lat": 45.4029776,
+            "lng": 9.1309141,
+            "uri": "http://www.songkick.com/venues/48459-mediolanum-forum?utm_source=24619&utm_medium=partner",
+            "id": 48459
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Hallenstadion (November 16, 2016)",
+          "start": {
+            "datetime": "2016-11-16T20:00:00+0000",
+            "time": "20:00:00",
+            "date": "2016-11-16"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Zürich, Switzerland",
+            "lat": 47.4116099,
+            "lng": 8.5516563
+          },
+          "uri": "http://www.songkick.com/concerts/26511974-placebo-at-hallenstadion?utm_source=24619&utm_medium=partner",
+          "id": 26511974,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768864,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146959,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Zürich",
+              "uri": "http://www.songkick.com/metro_areas/104761-switzerland-zurich?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Switzerland"
+              },
+              "id": 104761
+            },
+            "displayName": "Hallenstadion",
+            "lat": 47.4116099,
+            "lng": 8.5516563,
+            "uri": "http://www.songkick.com/venues/29550-hallenstadion?utm_source=24619&utm_medium=partner",
+            "id": 29550
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Zénith de Lille (November 18, 2016)",
+          "start": {
+            "datetime": "2016-11-18T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-18"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Lille, France",
+            "lat": 50.6327122,
+            "lng": 3.0780493
+          },
+          "uri": "http://www.songkick.com/concerts/26493329-placebo-at-zenith-de-lille?utm_source=24619&utm_medium=partner",
+          "id": 26493329,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51734814,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146964,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Lille",
+              "uri": "http://www.songkick.com/metro_areas/28886-france-lille?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "France"
+              },
+              "id": 28886
+            },
+            "displayName": "Zénith de Lille",
+            "lat": 50.6327122,
+            "lng": 3.0780493,
+            "uri": "http://www.songkick.com/venues/514631-zenith-de-lille?utm_source=24619&utm_medium=partner",
+            "id": 514631
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Sportpaleis (November 19, 2016)",
+          "start": {
+            "datetime": null,
+            "time": null,
+            "date": "2016-11-19"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Antwerp, Belgium",
+            "lat": 51.2307931,
+            "lng": 4.4423175
+          },
+          "uri": "http://www.songkick.com/concerts/26685394-placebo-at-sportpaleis?utm_source=24619&utm_medium=partner",
+          "id": 26685394,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 52095294,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146849,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Antwerp",
+              "uri": "http://www.songkick.com/metro_areas/26852-belgium-antwerp?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Belgium"
+              },
+              "id": 26852
+            },
+            "displayName": "Sportpaleis",
+            "lat": 51.2307931,
+            "lng": 4.4423175,
+            "uri": "http://www.songkick.com/venues/569556-sportpaleis?utm_source=24619&utm_medium=partner",
+            "id": 569556
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Ziggo Dome (November 21, 2016)",
+          "start": {
+            "datetime": "2016-11-21T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-21"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Amsterdam, Netherlands",
+            "lat": 52.3134468,
+            "lng": 4.9371913
+          },
+          "uri": "http://www.songkick.com/concerts/26486204-placebo-at-ziggo-dome?utm_source=24619&utm_medium=partner",
+          "id": 26486204,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721614,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146969,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Amsterdam",
+              "uri": "http://www.songkick.com/metro_areas/31366-netherlands-amsterdam?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Netherlands"
+              },
+              "id": 31366
+            },
+            "displayName": "Ziggo Dome",
+            "lat": 52.3134468,
+            "lng": 4.9371913,
+            "uri": "http://www.songkick.com/venues/1603193-ziggo-dome?utm_source=24619&utm_medium=partner",
+            "id": 1603193
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Festhalle Frankfurt (November 23, 2016)",
+          "start": {
+            "datetime": "2016-11-23T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-23"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Frankfurt, Germany",
+            "lat": 50.11218,
+            "lng": 8.64515
+          },
+          "uri": "http://www.songkick.com/concerts/26486104-placebo-at-festhalle-frankfurt?utm_source=24619&utm_medium=partner",
+          "id": 26486104,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51721484,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146974,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Frankfurt",
+              "uri": "http://www.songkick.com/metro_areas/28480-germany-frankfurt?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28480
+            },
+            "displayName": "Festhalle Frankfurt",
+            "lat": 50.11218,
+            "lng": 8.64515,
+            "uri": "http://www.songkick.com/venues/31697-festhalle-frankfurt?utm_source=24619&utm_medium=partner",
+            "id": 31697
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Hanns-Martin-Schleyerhalle (November 24, 2016)",
+          "start": {
+            "datetime": "2016-11-24T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-24"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Stuttgart, Germany",
+            "lat": 48.79387,
+            "lng": 9.22772
+          },
+          "uri": "http://www.songkick.com/concerts/26514279-placebo-at-hannsmartinschleyerhalle?utm_source=24619&utm_medium=partner",
+          "id": 26514279,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51773929,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146979,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Stuttgart",
+              "uri": "http://www.songkick.com/metro_areas/28591-germany-stuttgart?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Germany"
+              },
+              "id": 28591
+            },
+            "displayName": "Hanns-Martin-Schleyerhalle",
+            "lat": 48.79387,
+            "lng": 9.22772,
+            "uri": "http://www.songkick.com/venues/36442-hannsmartinschleyerhalle?utm_source=24619&utm_medium=partner",
+            "id": 36442
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Galaxie (November 26, 2016)",
+          "start": {
+            "datetime": "2016-11-26T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-26"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Amneville, France",
+            "lat": 49.2599469,
+            "lng": 6.142912
+          },
+          "uri": "http://www.songkick.com/concerts/26493444-placebo-at-galaxie?utm_source=24619&utm_medium=partner",
+          "id": 26493444,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51734954,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146984,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Amneville",
+              "uri": "http://www.songkick.com/metro_areas/35983-france-amneville?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "France"
+              },
+              "id": 35983
+            },
+            "displayName": "Galaxie",
+            "lat": 49.2599469,
+            "lng": 6.142912,
+            "uri": "http://www.songkick.com/venues/45333-galaxie?utm_source=24619&utm_medium=partner",
+            "id": 45333
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at Zénith Nantes Metropole (November 28, 2016)",
+          "start": {
+            "datetime": "2016-11-28T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-28"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Nantes, France",
+            "lat": 47.2300295,
+            "lng": -1.6286496
+          },
+          "uri": "http://www.songkick.com/concerts/26493439-placebo-at-zenith-nantes-metropole?utm_source=24619&utm_medium=partner",
+          "id": 26493439,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51734949,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146989,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Nantes",
+              "uri": "http://www.songkick.com/metro_areas/28901-france-nantes?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "France"
+              },
+              "id": 28901
+            },
+            "displayName": "Zénith Nantes Metropole",
+            "lat": 47.2300295,
+            "lng": -1.6286496,
+            "uri": "http://www.songkick.com/venues/584671-zenith-nantes-metropole?utm_source=24619&utm_medium=partner",
+            "id": 584671
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with The Joy Formidable at AccorHotels Arena POPB (November 29, 2016)",
+          "start": {
+            "datetime": "2016-11-29T20:00:00+0100",
+            "time": "20:00:00",
+            "date": "2016-11-29"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Paris, France",
+            "lat": 48.839169,
+            "lng": 2.3782288
+          },
+          "uri": "http://www.songkick.com/concerts/26493454-placebo-at-accorhotels-arena-popb?utm_source=24619&utm_medium=partner",
+          "id": 26493454,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51734964,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "The Joy Formidable",
+                "uri": "http://www.songkick.com/artists/1195278-joy-formidable?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:072d4c31-8fd7-4073-9efc-7e192b517906.json",
+                    "mbid": "072d4c31-8fd7-4073-9efc-7e192b517906"
+                  }
+                ],
+                "id": 1195278
+              },
+              "displayName": "The Joy Formidable",
+              "id": 54146994,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Paris",
+              "uri": "http://www.songkick.com/metro_areas/28909-france-paris?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "France"
+              },
+              "id": 28909
+            },
+            "displayName": "AccorHotels Arena POPB",
+            "lat": 48.839169,
+            "lng": 2.3782288,
+            "uri": "http://www.songkick.com/venues/3120894-accorhotels-arena-popb?utm_source=24619&utm_medium=partner",
+            "id": 3120894
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at The SSE Hydro (December 2, 2016)",
+          "start": {
+            "datetime": "2016-12-02T18:30:00+0000",
+            "time": "18:30:00",
+            "date": "2016-12-02"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Glasgow, UK",
+            "lat": 55.8608628,
+            "lng": -4.2881348
+          },
+          "uri": "http://www.songkick.com/concerts/26492169-placebo-at-sse-hydro?utm_source=24619&utm_medium=partner",
+          "id": 26492169,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51732839,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 53972599,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Glasgow",
+              "uri": "http://www.songkick.com/metro_areas/24473-uk-glasgow?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24473
+            },
+            "displayName": "The SSE Hydro",
+            "lat": 55.8608628,
+            "lng": -4.2881348,
+            "uri": "http://www.songkick.com/venues/2443719-sse-hydro?utm_source=24619&utm_medium=partner",
+            "id": 2443719
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at First Direct Arena (December 3, 2016)",
+          "start": {
+            "datetime": "2016-12-03T19:30:00+0000",
+            "time": "19:30:00",
+            "date": "2016-12-03"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Leeds, UK",
+            "lat": 53.8036809,
+            "lng": -1.5438353
+          },
+          "uri": "http://www.songkick.com/concerts/26506124-placebo-at-first-direct-arena?utm_source=24619&utm_medium=partner",
+          "id": 26506124,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51758924,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147329,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Leeds",
+              "uri": "http://www.songkick.com/metro_areas/24495-uk-leeds?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24495
+            },
+            "displayName": "First Direct Arena",
+            "lat": 53.8036809,
+            "lng": -1.5438353,
+            "uri": "http://www.songkick.com/venues/2298254-first-direct-arena?utm_source=24619&utm_medium=partner",
+            "id": 2298254
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at First Direct Arena (December 3, 2016)",
+          "start": {
+            "datetime": "2016-12-03T18:00:00+0000",
+            "time": "18:00:00",
+            "date": "2016-12-03"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Leeds, UK",
+            "lat": 53.8036809,
+            "lng": -1.5438353
+          },
+          "uri": "http://www.songkick.com/concerts/26529969-placebo-at-first-direct-arena?utm_source=24619&utm_medium=partner",
+          "id": 26529969,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51801994,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147339,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Leeds",
+              "uri": "http://www.songkick.com/metro_areas/24495-uk-leeds?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24495
+            },
+            "displayName": "First Direct Arena",
+            "lat": 53.8036809,
+            "lng": -1.5438353,
+            "uri": "http://www.songkick.com/venues/2298254-first-direct-arena?utm_source=24619&utm_medium=partner",
+            "id": 2298254
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at Manchester Arena (December 5, 2016)",
+          "start": {
+            "datetime": "2016-12-05T18:00:00+0000",
+            "time": "18:00:00",
+            "date": "2016-12-05"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Manchester, UK",
+            "lat": 53.487311,
+            "lng": -2.2433451
+          },
+          "uri": "http://www.songkick.com/concerts/26506314-placebo-at-manchester-arena?utm_source=24619&utm_medium=partner",
+          "id": 26506314,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51759179,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147319,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Manchester",
+              "uri": "http://www.songkick.com/metro_areas/24475-uk-manchester?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24475
+            },
+            "displayName": "Manchester Arena",
+            "lat": 53.487311,
+            "lng": -2.2433451,
+            "uri": "http://www.songkick.com/venues/17602-manchester-arena?utm_source=24619&utm_medium=partner",
+            "id": 17602
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at Motorpoint Arena Nottingham (December 6, 2016)",
+          "start": {
+            "datetime": "2016-12-06T18:30:00+0000",
+            "time": "18:30:00",
+            "date": "2016-12-06"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Nottingham, UK",
+            "lat": 52.95264,
+            "lng": -1.1392764
+          },
+          "uri": "http://www.songkick.com/concerts/26511919-placebo-at-motorpoint-arena-nottingham?utm_source=24619&utm_medium=partner",
+          "id": 26511919,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768804,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54129164,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Nottingham",
+              "uri": "http://www.songkick.com/metro_areas/24549-uk-nottingham?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24549
+            },
+            "displayName": "Motorpoint Arena Nottingham",
+            "lat": 52.95264,
+            "lng": -1.1392764,
+            "uri": "http://www.songkick.com/venues/16756-motorpoint-arena-nottingham?utm_source=24619&utm_medium=partner",
+            "id": 16756
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at Barclaycard Arena (December 8, 2016)",
+          "start": {
+            "datetime": "2016-12-08T18:00:00+0000",
+            "time": "18:00:00",
+            "date": "2016-12-08"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Birmingham, UK",
+            "lat": 52.4826511,
+            "lng": -1.9187133
+          },
+          "uri": "http://www.songkick.com/concerts/26511924-placebo-at-barclaycard-arena?utm_source=24619&utm_medium=partner",
+          "id": 26511924,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768809,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147009,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Birmingham",
+              "uri": "http://www.songkick.com/metro_areas/24542-uk-birmingham?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24542
+            },
+            "displayName": "Barclaycard Arena",
+            "lat": 52.4826511,
+            "lng": -1.9187133,
+            "uri": "http://www.songkick.com/venues/17383-barclaycard-arena?utm_source=24619&utm_medium=partner",
+            "id": 17383
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at 3Arena (December 10, 2016)",
+          "start": {
+            "datetime": "2016-12-10T18:30:00+0000",
+            "time": "18:30:00",
+            "date": "2016-12-10"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Dublin, Ireland",
+            "lat": 53.3471989,
+            "lng": -6.2332479
+          },
+          "uri": "http://www.songkick.com/concerts/26491749-placebo-at-3arena?utm_source=24619&utm_medium=partner",
+          "id": 26491749,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51732239,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 53933679,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Dublin",
+              "uri": "http://www.songkick.com/metro_areas/29314-ireland-dublin?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "Ireland"
+              },
+              "id": 29314
+            },
+            "displayName": "3Arena",
+            "lat": 53.3471989,
+            "lng": -6.2332479,
+            "uri": "http://www.songkick.com/venues/2761953-3arena?utm_source=24619&utm_medium=partner",
+            "id": 2761953
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at Newport Centre (December 12, 2016)",
+          "start": {
+            "datetime": "2016-12-12T18:30:00+0000",
+            "time": "18:30:00",
+            "date": "2016-12-12"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Newport, UK",
+            "lat": 51.5876069,
+            "lng": -2.9934729
+          },
+          "uri": "http://www.songkick.com/concerts/26511929-placebo-at-newport-centre?utm_source=24619&utm_medium=partner",
+          "id": 26511929,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51768814,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147354,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Newport",
+              "uri": "http://www.songkick.com/metro_areas/24615-uk-newport?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24615
+            },
+            "displayName": "Newport Centre",
+            "lat": 51.5876069,
+            "lng": -2.9934729,
+            "uri": "http://www.songkick.com/venues/4104-newport-centre?utm_source=24619&utm_medium=partner",
+            "id": 4104
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at Brighton Centre (December 14, 2016)",
+          "start": {
+            "datetime": "2016-12-14T18:30:00+0000",
+            "time": "18:30:00",
+            "date": "2016-12-14"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "Brighton, UK",
+            "lat": 50.8212812,
+            "lng": -0.1488263
+          },
+          "uri": "http://www.songkick.com/concerts/26492189-placebo-at-brighton-centre?utm_source=24619&utm_medium=partner",
+          "id": 26492189,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51732859,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54129234,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "Brighton",
+              "uri": "http://www.songkick.com/metro_areas/24554-uk-brighton?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24554
+            },
+            "displayName": "Brighton Centre",
+            "lat": 50.8212812,
+            "lng": -0.1488263,
+            "uri": "http://www.songkick.com/venues/17465-brighton-centre?utm_source=24619&utm_medium=partner",
+            "id": 17465
+          }
+        },
+        {
+          "type": "Concert",
+          "status": "ok",
+          "popularity": 0.156595,
+          "displayName": "Placebo with Minor Victories at SSE Arena, Wembley (December 15, 2016)",
+          "start": {
+            "datetime": "2016-12-15T18:00:00+0000",
+            "time": "18:00:00",
+            "date": "2016-12-15"
+          },
+          "ageRestriction": null,
+          "location": {
+            "city": "London, UK",
+            "lat": 51.5586053,
+            "lng": -0.2803252
+          },
+          "uri": "http://www.songkick.com/concerts/26498434-placebo-at-sse-arena-wembley?utm_source=24619&utm_medium=partner",
+          "id": 26498434,
+          "performance": [
+            {
+              "billingIndex": 1,
+              "artist": {
+                "displayName": "Placebo",
+                "uri": "http://www.songkick.com/artists/324967-placebo?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:81b9963b-7ff7-47f7-9afb-fe454d8db43c.json",
+                    "mbid": "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+                  },
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:847e8284-8582-4b0e-9c26-b042a4f49e57.json",
+                    "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57"
+                  }
+                ],
+                "id": 324967
+              },
+              "displayName": "Placebo",
+              "id": 51744189,
+              "billing": "headline"
+            },
+            {
+              "billingIndex": 2,
+              "artist": {
+                "displayName": "Minor Victories",
+                "uri": "http://www.songkick.com/artists/8723454-minor-victories?utm_source=24619&utm_medium=partner",
+                "identifier": [
+                  {
+                    "href": "http://api.songkick.com/api/3.0/artists/mbid:203177c9-05e8-42f9-9426-637c6c08c61a.json",
+                    "mbid": "203177c9-05e8-42f9-9426-637c6c08c61a"
+                  }
+                ],
+                "id": 8723454
+              },
+              "displayName": "Minor Victories",
+              "id": 54147359,
+              "billing": "support"
+            }
+          ],
+          "venue": {
+            "metroArea": {
+              "displayName": "London",
+              "uri": "http://www.songkick.com/metro_areas/24426-uk-london?utm_source=24619&utm_medium=partner",
+              "country": {
+                "displayName": "UK"
+              },
+              "id": 24426
+            },
+            "displayName": "SSE Arena, Wembley",
+            "lat": 51.5586053,
+            "lng": -0.2803252,
+            "uri": "http://www.songkick.com/venues/1686-sse-arena-wembley?utm_source=24619&utm_medium=partner",
+            "id": 1686
+          }
+        }
+      ]
+    },
+    "perPage": 50,
+    "page": 1,
+    "totalEntries": 33
+  }
+}
