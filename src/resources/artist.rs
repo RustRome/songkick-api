@@ -5,6 +5,8 @@ use error::SkError;
 use resources::identifier::Identifier;
 use util::json::{get_str, get_u64};
 
+
+/// Represent a SongKick Artist
 #[derive(Debug, PartialEq)]
 pub struct Artist {
     pub display_name: String,

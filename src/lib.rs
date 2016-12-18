@@ -24,7 +24,6 @@
 #![warn(unused_qualifications)]
 
 extern crate hyper;
-extern crate serde;
 #[macro_use]
 extern crate url;
 extern crate serde_json;

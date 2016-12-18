@@ -46,24 +46,24 @@ impl FilterBuilder {
     }
 
 
-    fn artist_name(&mut self, name: String) -> &mut FilterBuilder {
+    pub fn artist_name(&mut self, name: String) -> &mut FilterBuilder {
         self.empty = false;
         self.artist_name = Some(name);
         self
     }
 
-    fn min_date(&mut self, min_date: String) -> &mut FilterBuilder {
+    pub fn min_date(&mut self, min_date: String) -> &mut FilterBuilder {
         self.empty = false;
         self.min_date = Some(min_date);
         self
     }
-    fn max_date(&mut self, max_date: String) -> &mut FilterBuilder {
+    pub fn max_date(&mut self, max_date: String) -> &mut FilterBuilder {
         self.empty = false;
         self.max_date = Some(max_date);
         self
     }
 
-    fn location(&mut self, location: String) -> &mut FilterBuilder {
+    pub fn location(&mut self, location: String) -> &mut FilterBuilder {
         self.empty = false;
         self.location = Some(location);
         self

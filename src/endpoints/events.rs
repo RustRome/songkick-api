@@ -38,7 +38,7 @@ impl SkEndpoint for EventEndpoint {
 }
 
 impl EventEndpoint {
-    fn search(&self, options: Options) -> SkResult<SkResultSet<Event>> {
+    pub fn search(&self, options: Options) -> SkResult<SkResultSet<Event>> {
         let url = format!("{}/events.json?apikey={}", self.sk.base_path(), self.sk.api_key());
 
         self.delegate.fetch::<Event>(&url, self.sk.as_ref(), Some(options))

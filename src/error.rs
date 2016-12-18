@@ -62,12 +62,11 @@ impl error::Error for SkError {
 
     fn cause(&self) -> Option<&error::Error> {
         match *self {
-            SkError::Default(ref err) => None,
             SkError::Json(ref err) => Some(err),
             SkError::Io(ref err) => Some(err),
             SkError::Http(ref err) => Some(err),
-            SkError::BadRequest(ref err) => None,
-            SkError::JsonError(ref err) => None
+            _ => None
+
         }
     }
 }

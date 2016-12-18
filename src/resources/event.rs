@@ -14,11 +14,11 @@ pub struct When {
 }
 
 pub struct Performance {
-    billing: String,
-    billing_index: u64,
-    id: u64,
-    display_name: String,
-    artist: Artist,
+    pub billing: String,
+    pub billing_index: u64,
+    pub id: u64,
+    pub display_name: String,
+    pub artist: Artist,
 }
 
 impl Resource for Performance {
@@ -172,13 +172,14 @@ impl Resource for Event {
 }
 
 
-#[allow(unused_imports)]
-#[allow(dead_code)]
 
+
+#[cfg(test)]
 mod tests {
     use std::fs::File;
     use std::io::Read;
     use resources::event::Event;
+    use resources::event::Performance;
     use resources::{Resource};
     use serde_json::Value;
     use serde_json;
@@ -219,7 +220,6 @@ mod tests {
 
         // Assert Metro Area
 
-
         let metro = event.venue.metro_area.unwrap();
         assert_eq!("Oslo", metro.display_name);
         assert_eq!(31422, metro.id);
@@ -230,10 +230,14 @@ mod tests {
 
         assert_eq!(2, event.performances.len());
 
-        assert_eq!("Placebo", event.performances[0].display_name);
-        assert_eq!("headline", event.performances[0].billing);
+        let ref performance : Performance = event.performances[0];
+        assert_eq!(51721634, performance.id);
+        assert_eq!("Placebo", performance.display_name);
+        assert_eq!("headline", performance.billing);
+        assert_eq!(1, performance.billing_index);
 
         assert_eq!("The Mirror Trap", event.performances[1].display_name);
         assert_eq!("support", event.performances[1].billing);
+        assert_eq!(2, event.performances[1].billing_index);
     }
 }
