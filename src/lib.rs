@@ -19,7 +19,7 @@
 //! assert_eq!(1,artists.len());
 //!
 //! ```
-//#![warn(missing_docs)]
+
 #![warn(unused_extern_crates)]
 #![warn(unused_qualifications)]
 
@@ -27,6 +27,7 @@ extern crate hyper;
 #[macro_use]
 extern crate url;
 extern crate serde_json;
+
 
 
 mod client;
@@ -37,8 +38,11 @@ pub mod error;
 pub mod resources;
 pub mod endpoints;
 
+
 pub use client::SongKick as SongKick;
+pub use result::SkResultSet as SkResultSet;
 
 use error::SkError;
 
+/// Result type alias
 pub type SkResult<T> = Result<T, SkError>;

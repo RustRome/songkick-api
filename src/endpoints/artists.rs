@@ -8,7 +8,10 @@ use endpoints::SkEndpointInternal;
 use endpoints::SkEndpoint;
 use options::Options;
 
-struct ArtistEndpointDelegate {}
+#[doc(hidden)]
+struct ArtistEndpointDelegate {
+
+}
 
 impl SkEndpointInternal for ArtistEndpointDelegate {
     type Model = Artist;
@@ -17,8 +20,11 @@ impl SkEndpointInternal for ArtistEndpointDelegate {
     }
 }
 
+/// Public Struct for Artist Endpoint
 pub struct ArtistEndpoint {
+    /// Internal Delegate
     delegate: ArtistEndpointDelegate,
+    /// SongKick Options
     sk: Arc<SongKickOpts>
 }
 
@@ -34,6 +40,8 @@ impl SkEndpoint for ArtistEndpoint {
             sk: sk
         }
     }
+
+    /// Get Single Artist with ID
     fn get(&self, id: u64) -> SkResult<SkResultSet<Self::Model>> {
         self.delegate.get(id, self.sk.as_ref(), "artists")
     }
@@ -41,14 +49,18 @@ impl SkEndpoint for ArtistEndpoint {
 
 
 impl ArtistEndpoint {
-    pub fn search_by_name(&self, text: &str) -> SkResult<SkResultSet<Artist>> {
-        self.delegate.search_by_name(text, self.sk.as_ref(), "artists", None)
+
+    /// Search [Artists](https://www.songkick.com/developer/artist-search) by name
+    pub fn search_by_name<T>(&self, text: T) -> SkResult<SkResultSet<Artist>> where T : Into<String> {
+        self.delegate.search_by_name(&text.into(), self.sk.as_ref(), "artists", None)
     }
 
+    /// Retrieve [Calendar](https://www.songkick.com/developer/upcoming-events-for-artist) for an Artist with ID
     pub fn calendar(&self, id: u64, options: Option<Options>) -> SkResult<SkResultSet<Event>> {
         self.delegate.calendar(id, self.sk.as_ref(), "artists", options)
     }
 
+    /// Retrieve [Gigography](https://www.songkick.com/developer/past-events-for-artist) for an Artist with ID
     pub fn gigography(&self, id: u64, options: Option<Options>) -> SkResult<SkResultSet<Event>> {
         self.delegate.gigography(id, self.sk.as_ref(), "artists", options)
     }

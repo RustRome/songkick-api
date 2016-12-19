@@ -2,16 +2,24 @@ use hyper::*;
 use endpoints::{ArtistEndpoint, SkEndpoint, EventEndpoint};
 use std::sync::Arc;
 
+
+
+/// Represent the SongKick client used to fetch the data from SongKick API
 pub struct SongKick {
+    /// Artist EndPoint
     pub artist: ArtistEndpoint,
+    /// Event EndPoint
     pub event: EventEndpoint,
     #[allow(dead_code)]
     opts: Arc<SongKickOpts>
 }
-
+/// Struct that holds SonKick Options
 pub struct SongKickOpts {
+    /// API KEY
     api_key: String,
+    /// HTTP Client
     client: Arc<Client>,
+    /// API base path
     base_path: &'static str
 }
 
@@ -24,13 +32,16 @@ impl SongKickOpts {
             base_path: base_path
         }
     }
+    /// Return HTTP Client
     pub fn client(&self) -> Arc<Client> {
         self.client.clone()
     }
-
+    /// Return base_path
     pub fn base_path(&self) -> &str {
         self.base_path
     }
+    /// Return API Key
+
     pub fn api_key(&self) -> &str {
         &self.api_key
     }

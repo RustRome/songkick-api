@@ -7,6 +7,8 @@ use resources::artist::Artist;
 use util::json::{get_str, get_u64, get_f64, get_arr};
 
 #[derive(Debug, PartialEq)]
+
+
 pub struct When {
     pub datetime: Option<String>,
     pub time: Option<String>,
@@ -102,6 +104,7 @@ impl Resource for When {
     }
 }
 
+// Event Resource
 pub struct Event {
     pub id: u64,
     pub event_type: String,

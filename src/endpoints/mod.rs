@@ -16,6 +16,8 @@ pub use endpoints::artists::ArtistEndpoint as ArtistEndpoint;
 pub use endpoints::events::EventEndpoint as EventEndpoint;
 
 
+
+#[doc(hidden)]
 trait SkEndpointInternal {
     type Model: Resource;
     fn new() -> Self;

@@ -6,13 +6,16 @@ use resources::identifier::Identifier;
 use util::json::{get_str, get_u64};
 
 
-/// Represent a SongKick Artist
+/// Represent a SongKick Artist Resource
 #[derive(Debug, PartialEq)]
 pub struct Artist {
+
+    /// Display name
     pub display_name: String,
     pub uri: String,
+    /// ID
     pub id: u64,
-    pub identfiers: Vec<Identifier>
+    pub identifiers: Vec<Identifier>
 }
 
 impl Resource for Artist {
@@ -38,7 +41,7 @@ impl Resource for Artist {
                     id: id,
                     uri: uri,
                     display_name: display_name,
-                    identfiers: identifiers
+                    identifiers: identifiers
                 };
                 Ok(artist)
             },
@@ -81,6 +84,6 @@ mod tests {
         assert_eq!("Radiohead", artist.display_name);
         assert_eq!("http://www.songkick.com/artists/253846-radiohead?utm_source=24619&utm_medium=partner", artist.uri);
         assert_eq!(253846, artist.id);
-        assert_eq!("a74b1b7f-71a5-4011-9441-d0b5e4122711", artist.identfiers[0].mbid);
+        assert_eq!("a74b1b7f-71a5-4011-9441-d0b5e4122711", artist.identifiers[0].mbid);
     }
 }

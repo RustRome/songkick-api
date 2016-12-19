@@ -1,5 +1,45 @@
+
+//!  Contains Struct for Building Options used in requests
+//!
+//!
+//! # Sorting Example
+//!
+//! ```rust,no_run
+//! use songkick::{SongKick};
+//! use songkick::resources::Event;
+//! use songkick::endpoints::{SkEndpoint,ArtistEndpoint};
+//! use songkick::options::{OptionsBuilder,Sort};
+//!
+//! let sk = SongKick::new("API_KEY");
+//! let options = OptionsBuilder::new().sort(Sort::DESC).build();
+//! // RadioHead ID
+//! let events : Vec<Event> = sk.artist.gigography(253846,Some(options))
+//! .and_then(|res| Ok(res.collect()))
+//! .expect("Failed to fetch gigography for artist with id");
+//!
+//! ```
+//!
+//! # Paging Example
+//!
+//! ```rust,no_run
+//! use songkick::{SongKick};
+//! use songkick::resources::Event;
+//! use songkick::endpoints::{SkEndpoint,ArtistEndpoint};
+//! use songkick::options::{OptionsBuilder,Sort};
+//!
+//! let sk = SongKick::new("API_KEY");
+//! let options = OptionsBuilder::new().paging(2, 25).build();
+//! // RadioHead ID
+//! let events : Vec<Event> = sk.artist.gigography(253846,Some(options))
+//! .and_then(|res| Ok(res.collect()))
+//! .expect("Failed to fetch gigography for artist with id");
+//!
+//! ```
+
+
 use util::encode;
 
+/// Struct used for filtering, paging and sorting options
 pub struct Options {
     paging: Option<Paging>,
     filter: Option<Filter>,
@@ -26,6 +66,7 @@ struct Paging {
 }
 
 
+/// Struct used for building filters
 pub struct FilterBuilder {
     empty: bool,
     artist_name: Option<String>,
@@ -46,26 +87,26 @@ impl FilterBuilder {
     }
 
 
-    pub fn artist_name(&mut self, name: String) -> &mut FilterBuilder {
+    pub fn artist_name<T>(&mut self, name: T) -> &mut FilterBuilder where T : Into<String> {
         self.empty = false;
-        self.artist_name = Some(name);
+        self.artist_name = Some(name.into());
         self
     }
 
-    pub fn min_date(&mut self, min_date: String) -> &mut FilterBuilder {
+    pub fn min_date<T>(&mut self, min_date: T) -> &mut FilterBuilder where T : Into<String>{
         self.empty = false;
-        self.min_date = Some(min_date);
+        self.min_date = Some(min_date.into());
         self
     }
-    pub fn max_date(&mut self, max_date: String) -> &mut FilterBuilder {
+    pub fn max_date<T>(&mut self, max_date: T) -> &mut FilterBuilder where T : Into<String> {
         self.empty = false;
-        self.max_date = Some(max_date);
+        self.max_date = Some(max_date.into());
         self
     }
 
-    pub fn location(&mut self, location: String) -> &mut FilterBuilder {
+    pub fn location<T>(&mut self, location: T) -> &mut FilterBuilder where T : Into<String> {
         self.empty = false;
-        self.location = Some(location);
+        self.location = Some(location.into());
         self
     }
 
@@ -83,7 +124,7 @@ impl FilterBuilder {
         }
     }
 }
-
+/// Struct used for building Options
 pub struct OptionsBuilder {
     filter: FilterBuilder,
     paging: Option<Paging>,

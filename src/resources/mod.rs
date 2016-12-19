@@ -13,6 +13,7 @@ pub use resources::artist::Artist as Artist;
 pub use resources::event::Event as Event;
 
 pub trait Resource {
+
     fn from_json(source: &Value) -> SkResult<Self> where Self: Sized;
 
     fn marker() -> &'static str;

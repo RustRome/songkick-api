@@ -4,7 +4,11 @@ use serde_json::Value;
 use std::vec::IntoIter;
 use error::SkError;
 
+
+/// Struct for handling response from API calls
 pub struct SkResultSet<M: Resource> {
+
+    /// Status of the request
     pub status: String,
     iter: IntoIter<M>,
     pub page: u64,
@@ -125,7 +129,7 @@ mod tests {
         assert_eq!(artist.display_name, "Placebo");
         assert_eq!(artist.id, 324967);
 
-        assert_eq!(artist.identfiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
+        assert_eq!(artist.identifiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
     }
 
     #[test]
@@ -147,7 +151,7 @@ mod tests {
         assert_eq!(artists[0].display_name, "Placebo");
         assert_eq!(artists[0].id, 324967);
 
-        assert_eq!(artists[0].identfiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
+        assert_eq!(artists[0].identifiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
     }
 
     #[test]
