@@ -5,6 +5,7 @@ description = "Rust library for SongKick API"
 authors = ["Enrico Risa <enrico.risa@gmail.com>"]
 repository = "https://github.com/maggiolo00/songkick-api"
 documentation = "https://docs.rs/songkick"
+exclude = ["fixtures/*"]
 
 license = "MIT"
 keywords = ["SongKick", "Concerts", "Music"]
@@ -20,3 +21,5 @@ serde_json = "*"
 [dev-dependencies]
 prettytable-rs = "*"
 shrust = "*"
+
+
