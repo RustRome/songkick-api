@@ -3,7 +3,9 @@ name = "songkick"
 version = "0.1.0"
 description = "Rust library for SongKick API"
 authors = ["Enrico Risa <enrico.risa@gmail.com>"]
-repository = "https://gitlab.com/wolf4ood/songkick-api"
+repository = "https://github.com/maggiolo00/songkick-api"
+documentation = "https://docs.rs/songkick"
+
 license = "MIT"
 keywords = ["SongKick", "Concerts", "Music"]
 

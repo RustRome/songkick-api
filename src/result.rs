@@ -11,13 +11,18 @@ pub struct SkResultSet<M: Resource> {
     /// Status of the request
     pub status: String,
     iter: IntoIter<M>,
+    /// Current Page
     pub page: u64,
+    /// Items per Page
     pub per_page: u64,
+    /// Total Entries
     pub total_entries: u64
 }
 
 
+
 impl<M> SkResultSet<M> where M: Resource {
+    #[doc(hidden)]
     pub fn from_json(source: &Value) -> SkResult<SkResultSet<M>> {
         let obj = source.as_object().unwrap().get("resultsPage").unwrap().as_object().unwrap();
 
