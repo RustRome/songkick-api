@@ -19,7 +19,7 @@ serde_json = "0.8.4"
 
 
 [dev-dependencies]
-prettytable-rs = "*"
-shrust = "*"
+prettytable-rs = "0.6.6"
+shrust = "0.0.4"
 
 
