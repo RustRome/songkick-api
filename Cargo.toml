@@ -12,9 +12,9 @@ keywords = ["SongKick", "Concerts", "Music"]
 
 
 [dependencies]
-url = "1.2.4"
+url = "1.2.1"
 hyper = "0.9.10"
-serde = "0.8.21"
+serde = "0.8.19"
 serde_json = "0.8.4"
 
 
