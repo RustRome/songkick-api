@@ -1,15 +1,37 @@
-# SongKick Rust
+<h1 align="center">SongKick Rust</h1>
+<div align="center">
+  <strong>
+    SongKick API library written in Rust
+  </strong>
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://github.com/RustRome/songkick-api/actions?query=workflow%3ATests">
+    <img src="https://github.com/RustRome/songkick-api/workflows/Tests/badge.svg"
+    alt="Tests status" />
+  </a>
+  
+  <a href='https://coveralls.io/github/RustRome/songkick-api?branch=master'><img src='https://coveralls.io/repos/github/RustRome/songkick-api/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+  <a href="https://crates.io/crates/songkick-api">
+    <img src="https://img.shields.io/crates/d/songkick-api.svg?style=flat-square"
+      alt="Download" />
+  </a>
+  <a href="https://docs.rs/songkick-api">
+    <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
+      alt="docs.rs docs" />
+  </a>
+
+</div>
+
+<br/>
 
 
-[SongKick]() API library written in Rust
-
-[![Build Status](https://travis-ci.org/RustRome/songkick-api.svg?branch=master)](https://travis-ci.org/RustRome/songkick-api)
-[![Coverage](https://codecov.io/gh/RustRome/songkick-api/branch/master/graph/badge.svg)](https://codecov.io/gh/RustRome/songkick-api)
 
 
-
-
-##Usage
+## Usage
 
 
 Add this in your Cargo.toml:
@@ -28,7 +50,7 @@ extern crate songkick;
 
 
 
-##Example
+## Example
 
 
 Fetch Artist Info with SongKick ID
@@ -46,6 +68,6 @@ assert_eq!(1,artists.len());
 ```
 
 
-Check more examples [here](https://github.com/maggiolo00/songkick-api/tree/master/examples)
+Check more examples [here](https://github.com/RustRome/songkick-api/tree/master/examples)
 
 
