@@ -1,11 +1,11 @@
-use resources::event::Event;
-use result::{SkResultSet};
-use SkResult;
-use client::SongKickOpts;
+use crate::resources::event::Event;
+use crate::result::{SkResultSet};
+use crate::SkResult;
+use crate::client::SongKickOpts;
 use std::sync::Arc;
-use endpoints::SkEndpoint;
-use endpoints::SkEndpointInternal;
-use options::Options;
+use crate::endpoints::SkEndpoint;
+use crate::endpoints::SkEndpointInternal;
+use crate::options::Options;
 
 
 #[doc(hidden)]

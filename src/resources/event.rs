@@ -1,10 +1,10 @@
-use SkResult;
-use resources::Resource;
+use crate::SkResult;
+use crate::resources::Resource;
 use serde_json::Value;
-use error::SkError;
-use resources::venue::Venue;
-use resources::artist::Artist;
-use util::json::{get_str, get_u64, get_f64, get_arr};
+use crate::error::SkError;
+use crate::resources::venue::Venue;
+use crate::resources::artist::Artist;
+use crate::util::json::{get_str, get_u64, get_f64, get_arr};
 
 #[derive(Debug, PartialEq)]
 
@@ -27,13 +27,13 @@ impl Resource for Performance {
     fn from_json(source: &Value) -> SkResult<Self> where Self: Sized {
         match source.as_object() {
             Some(obj) => {
-                let display_name = try!(get_str(obj, "displayName"));
-                let billing = try!(get_str(obj, "billing"));
-                let id = try!(get_u64(obj, "id"));
-                let billing_index = try!(get_u64(obj, "billingIndex"));
+                let display_name = get_str(obj, "displayName")?;
+                let billing = get_str(obj, "billing")?;
+                let id = get_u64(obj, "id")?;
+                let billing_index = get_u64(obj, "billingIndex")?;
                 let artist = obj.get("artist").unwrap();
 
-                let artist = try!(Artist::from_json(&artist));
+                let artist = Artist::from_json(&artist)?;
 
                 Ok(Performance {
                     id: id,
@@ -123,32 +123,32 @@ impl Resource for Event {
     fn from_json(source: &Value) -> SkResult<Self> where Self: Sized {
         match source.as_object() {
             Some(obj) => {
-                let id = try!(get_u64(obj, "id"));
-                let display_name = try!(get_str(obj, "displayName"));
+                let id = get_u64(obj, "id")?;
+                let display_name = get_str(obj, "displayName")?;
 
-                let uri = try!(get_str(obj, "uri"));
-                let event_type = try!(get_str(obj, "type"));
+                let uri = get_str(obj, "uri")?;
+                let event_type = get_str(obj, "type")?;
 
-                let status = try!(get_str(obj, "status"));
-                let popularity = try!(get_f64(obj, "popularity"));
+                let status = get_str(obj, "status")?;
+                let popularity = get_f64(obj, "popularity")?;
 
 
                 let start = obj.get("start").unwrap();
-                let start = try!(When::from_json(&start));
+                let start = When::from_json(&start)?;
 
                 let mut end = None;
                 if let Some(ref e) = obj.get("end") {
-                    end = Some(try!(When::from_json(&e)));
+                    end = Some(When::from_json(&e)?);
                 }
 
                 let venue = obj.get("venue").unwrap();
-                let venue = try!(Venue::from_json(&venue));
+                let venue = Venue::from_json(&venue)?;
 
                 let mut performances = Vec::new();
-                let performance = try!(get_arr(obj, "performance"));
+                let performance = get_arr(obj, "performance")?;
 
                 for p in performance {
-                    let model = try!(Performance::from_json(&p));
+                    let model = Performance::from_json(&p)?;
                     performances.push(model);
                 }
 
@@ -181,9 +181,9 @@ impl Resource for Event {
 mod tests {
     use std::fs::File;
     use std::io::Read;
-    use resources::event::Event;
-    use resources::event::Performance;
-    use resources::{Resource};
+    use crate::resources::event::Event;
+    use crate::resources::event::Performance;
+    use crate::resources::{Resource};
     use serde_json::Value;
     use serde_json;
 

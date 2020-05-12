@@ -1,13 +1,11 @@
-use resources::Resource;
-use SkResult;
+use crate::error::SkError;
+use crate::resources::Resource;
+use crate::SkResult;
 use serde_json::Value;
 use std::vec::IntoIter;
-use error::SkError;
-
 
 /// Struct for handling response from API calls
 pub struct SkResultSet<M: Resource> {
-
     /// Status of the request
     pub status: String,
     iter: IntoIter<M>,
@@ -16,15 +14,22 @@ pub struct SkResultSet<M: Resource> {
     /// Items per Page
     pub per_page: u64,
     /// Total Entries
-    pub total_entries: u64
+    pub total_entries: u64,
 }
 
-
-
-impl<M> SkResultSet<M> where M: Resource {
+impl<M> SkResultSet<M>
+where
+    M: Resource,
+{
     #[doc(hidden)]
     pub fn from_json(source: &Value) -> SkResult<SkResultSet<M>> {
-        let obj = source.as_object().unwrap().get("resultsPage").unwrap().as_object().unwrap();
+        let obj = source
+            .as_object()
+            .unwrap()
+            .get("resultsPage")
+            .unwrap()
+            .as_object()
+            .unwrap();
 
         let status = String::from(obj.get("status").unwrap().as_str().unwrap());
 
@@ -33,14 +38,12 @@ impl<M> SkResultSet<M> where M: Resource {
 
             let message = error.get("message").unwrap().as_str().unwrap();
 
-            return Err(SkError::BadRequest(String::from(message)))
+            return Err(SkError::BadRequest(String::from(message)));
         }
-
 
         let mut page = 1;
         let mut per_page = 50;
         let mut total_entries = 1;
-
 
         if let Some(ref p) = obj.get("page") {
             page = p.as_u64().unwrap();
@@ -59,11 +62,11 @@ impl<M> SkResultSet<M> where M: Resource {
 
         if let Some(ref r) = result.get(M::marker()) {
             if r.is_object() {
-                let model = try!(M::from_json(&r));
+                let model = M::from_json(&r)?;
                 results.push(model)
             } else if r.is_array() {
                 for res in r.as_array().unwrap() {
-                    let model = try!(M::from_json(&res));
+                    let model = M::from_json(&res)?;
                     results.push(model);
                 }
             }
@@ -73,13 +76,15 @@ impl<M> SkResultSet<M> where M: Resource {
             status: status,
             page: page,
             per_page: per_page,
-            total_entries: total_entries
+            total_entries: total_entries,
         })
     }
 }
 
-
-impl<M> Iterator for SkResultSet<M> where M: Resource {
+impl<M> Iterator for SkResultSet<M>
+where
+    M: Resource,
+{
     type Item = M;
 
     fn next(&mut self) -> Option<Self::Item> {
@@ -87,22 +92,20 @@ impl<M> Iterator for SkResultSet<M> where M: Resource {
     }
 }
 
-
 #[allow(unused_imports)]
 #[allow(dead_code)]
 mod tests {
-    use result::SkResultSet;
+    use crate::error::SkError;
+    use crate::resources::artist::Artist;
+    use crate::resources::event::Event;
+    use crate::resources::event::When;
+    use crate::resources::Resource;
+    use crate::result::SkResultSet;
+    use serde_json;
+    use serde_json::Value;
     use std::fs::File;
     use std::io::Read;
-    use resources::artist::Artist;
-    use resources::event::Event;
-    use resources::{Resource};
-    use SkResult;
-    use error::SkError;
-    use serde_json::Value;
-    use serde_json;
-    use resources::event::When;
-
+    use crate::SkResult;
 
     fn load_result<M: Resource>(path: &str) -> SkResult<SkResultSet<M>> {
         let sample_str = {
@@ -134,7 +137,10 @@ mod tests {
         assert_eq!(artist.display_name, "Placebo");
         assert_eq!(artist.id, 324967);
 
-        assert_eq!(artist.identifiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
+        assert_eq!(
+            artist.identifiers[0].mbid,
+            "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+        );
     }
 
     #[test]
@@ -147,16 +153,17 @@ mod tests {
         assert_eq!(1, res.page);
         assert_eq!(50, res.per_page);
 
-
         let artists = res.collect::<Vec<Artist>>();
 
         assert_eq!(artists.len(), 10);
 
-
         assert_eq!(artists[0].display_name, "Placebo");
         assert_eq!(artists[0].id, 324967);
 
-        assert_eq!(artists[0].identifiers[0].mbid, "81b9963b-7ff7-47f7-9afb-fe454d8db43c");
+        assert_eq!(
+            artists[0].identifiers[0].mbid,
+            "81b9963b-7ff7-47f7-9afb-fe454d8db43c"
+        );
     }
 
     #[test]
@@ -173,24 +180,34 @@ mod tests {
 
         assert_eq!(events.len(), 33);
 
-        assert_eq!("Placebo with The Mirror Trap at Cirkus (October 18, 2016)", events[0].display_name );
+        assert_eq!(
+            "Placebo with The Mirror Trap at Cirkus (October 18, 2016)",
+            events[0].display_name
+        );
         assert_eq!(26486294, events[0].id);
 
         match events[0].venue.metro_area {
             Some(ref m) => {
                 assert_eq!("Stockholm", m.display_name);
-            },
-            None => assert!(false)
+            }
+            None => assert!(false),
         }
 
-
-        assert_eq!(When { datetime: Some(String::from("2016-10-18T19:30:00+0200")), time: Some(String::from("19:30:00")), date: Some(String::from("2016-10-18")) }, events[0].start);
+        assert_eq!(
+            When {
+                datetime: Some(String::from("2016-10-18T19:30:00+0200")),
+                time: Some(String::from("19:30:00")),
+                date: Some(String::from("2016-10-18"))
+            },
+            events[0].start
+        );
         assert_eq!(None, events[0].end);
     }
 
     #[test]
     fn single_event_get_by_id() {
-        let res = load_result::<Event>("fixtures/event/single-event-festival-27081999.json").unwrap();
+        let res =
+            load_result::<Event>("fixtures/event/single-event-festival-27081999.json").unwrap();
 
         assert_eq!("ok", res.status);
         assert_eq!(1, res.total_entries);
@@ -201,27 +218,41 @@ mod tests {
 
         assert_eq!(events.len(), 1);
 
-        assert_eq!("Pitchfork Music Festival Paris 2016", events[0].display_name );
-        assert_eq!("Festival", events[0].event_type );
+        assert_eq!(
+            "Pitchfork Music Festival Paris 2016",
+            events[0].display_name
+        );
+        assert_eq!("Festival", events[0].event_type);
         assert_eq!(27081999, events[0].id);
 
         match events[0].venue.metro_area {
             Some(ref m) => {
                 assert_eq!("Paris", m.display_name);
-            },
-            None => assert!(false)
+            }
+            None => assert!(false),
         }
 
-        assert_eq!(Some(String::from("Grande Halle de la Villette")), events[0].venue.display_name);
+        assert_eq!(
+            Some(String::from("Grande Halle de la Villette")),
+            events[0].venue.display_name
+        );
 
-        assert_eq!(Some(String::from("2016-10-27T17:00:00+0200")), events[0].start.datetime);
+        assert_eq!(
+            Some(String::from("2016-10-27T17:00:00+0200")),
+            events[0].start.datetime
+        );
         assert_eq!(Some(String::from("2016-10-27")), events[0].start.date);
         assert_eq!(Some(String::from("17:00:00")), events[0].start.time);
 
-
-        assert_eq!(Some(When { datetime: None, time: None, date: Some(String::from("2016-10-29")) }), events[0].end);
+        assert_eq!(
+            Some(When {
+                datetime: None,
+                time: None,
+                date: Some(String::from("2016-10-29"))
+            }),
+            events[0].end
+        );
     }
-
 
     #[test]
     fn empty_sarch() {
@@ -249,10 +280,7 @@ mod tests {
             SkError::BadRequest(ref err) => {
                 assert_eq!("Invalid or missing apikey", err);
             }
-            _ => assert!(false)
+            _ => assert!(false),
         }
     }
 }
-
-
-

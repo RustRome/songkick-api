@@ -20,13 +20,6 @@
 //!
 //! ```
 
-#![warn(unused_extern_crates)]
-#![warn(unused_qualifications)]
-
-extern crate hyper;
-#[macro_use]
-extern crate url;
-extern crate serde_json;
 
 
 

@@ -1,7 +1,6 @@
+use serde_json;
 use std::error;
 use std::fmt;
-use hyper;
-use serde_json;
 use std::io;
 
 #[derive(Debug)]
@@ -10,10 +9,9 @@ pub enum SkError {
     Json(serde_json::Error),
     JsonError(String),
     Io(io::Error),
-    Http(hyper::Error),
-    BadRequest(String)
+    Http(reqwest::Error),
+    BadRequest(String),
 }
-
 
 impl fmt::Display for SkError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
@@ -23,14 +21,13 @@ impl fmt::Display for SkError {
             SkError::Io(ref err) => write!(f, "IO error: {}", err),
             SkError::Http(ref err) => write!(f, "Http error: {}", err),
             SkError::JsonError(ref err) => write!(f, "Http error: {}", err),
-            SkError::BadRequest(ref err) => write!(f, "Http error: {}", err)
+            SkError::BadRequest(ref err) => write!(f, "Http error: {}", err),
         }
     }
 }
 
-
-impl From<hyper::Error> for SkError {
-    fn from(err: hyper::Error) -> SkError {
+impl From<reqwest::Error> for SkError {
+    fn from(err: reqwest::Error) -> SkError {
         SkError::Http(err)
     }
 }
@@ -47,7 +44,6 @@ impl From<io::Error> for SkError {
     }
 }
 
-
 impl error::Error for SkError {
     fn description(&self) -> &str {
         match *self {
@@ -56,7 +52,7 @@ impl error::Error for SkError {
             SkError::Io(ref err) => err.description(),
             SkError::Http(ref err) => err.description(),
             SkError::JsonError(ref err) => err,
-            SkError::BadRequest(ref err) => err
+            SkError::BadRequest(ref err) => err,
         }
     }
 
@@ -65,10 +61,7 @@ impl error::Error for SkError {
             SkError::Json(ref err) => Some(err),
             SkError::Io(ref err) => Some(err),
             SkError::Http(ref err) => Some(err),
-            _ => None
-
+            _ => None,
         }
     }
 }
-
-

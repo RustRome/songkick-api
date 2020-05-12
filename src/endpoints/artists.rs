@@ -1,17 +1,15 @@
-use result::{SkResultSet};
-use SkResult;
-use resources::artist::Artist;
-use resources::event::Event;
-use client::SongKickOpts;
+use crate::client::SongKickOpts;
+use crate::endpoints::SkEndpoint;
+use crate::endpoints::SkEndpointInternal;
+use crate::options::Options;
+use crate::resources::artist::Artist;
+use crate::resources::event::Event;
+use crate::result::SkResultSet;
+use crate::SkResult;
 use std::sync::Arc;
-use endpoints::SkEndpointInternal;
-use endpoints::SkEndpoint;
-use options::Options;
 
 #[doc(hidden)]
-struct ArtistEndpointDelegate {
-
-}
+struct ArtistEndpointDelegate {}
 
 impl SkEndpointInternal for ArtistEndpointDelegate {
     type Model = Artist;
@@ -25,19 +23,17 @@ pub struct ArtistEndpoint {
     /// Internal Delegate
     delegate: ArtistEndpointDelegate,
     /// SongKick Options
-    sk: Arc<SongKickOpts>
+    sk: Arc<SongKickOpts>,
 }
-
 
 impl SkEndpoint for ArtistEndpoint {
     type Model = Artist;
-
 
     fn new(sk: Arc<SongKickOpts>) -> ArtistEndpoint {
         let delegate = ArtistEndpointDelegate::new();
         ArtistEndpoint {
             delegate: delegate,
-            sk: sk
+            sk: sk,
         }
     }
 
@@ -47,21 +43,25 @@ impl SkEndpoint for ArtistEndpoint {
     }
 }
 
-
 impl ArtistEndpoint {
-
     /// Search [Artists](https://www.songkick.com/developer/artist-search) by name
-    pub fn search_by_name<T>(&self, text: T) -> SkResult<SkResultSet<Artist>> where T : Into<String> {
-        self.delegate.search_by_name(&text.into(), self.sk.as_ref(), "artists", None)
+    pub fn search_by_name<T>(&self, text: T) -> SkResult<SkResultSet<Artist>>
+    where
+        T: Into<String>,
+    {
+        self.delegate
+            .search_by_name(&text.into(), self.sk.as_ref(), "artists", None)
     }
 
     /// Retrieve [Calendar](https://www.songkick.com/developer/upcoming-events-for-artist) for an Artist with ID
     pub fn calendar(&self, id: u64, options: Option<Options>) -> SkResult<SkResultSet<Event>> {
-        self.delegate.calendar(id, self.sk.as_ref(), "artists", options)
+        self.delegate
+            .calendar(id, self.sk.as_ref(), "artists", options)
     }
 
     /// Retrieve [Gigography](https://www.songkick.com/developer/past-events-for-artist) for an Artist with ID
     pub fn gigography(&self, id: u64, options: Option<Options>) -> SkResult<SkResultSet<Event>> {
-        self.delegate.gigography(id, self.sk.as_ref(), "artists", options)
+        self.delegate
+            .gigography(id, self.sk.as_ref(), "artists", options)
     }
 }

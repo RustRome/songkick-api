@@ -1,5 +1,5 @@
 extern crate songkick;
-#[macro_use] extern crate prettytable;
+extern crate prettytable;
 extern crate shrust;
 
 use std::io::{stdin, stdout};
