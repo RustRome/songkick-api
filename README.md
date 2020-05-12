@@ -13,12 +13,15 @@
     alt="Tests status" />
   </a>
   
-  <a href='https://coveralls.io/github/RustRome/songkick-api?branch=master'><img src='https://coveralls.io/repos/github/RustRome/songkick-api/badge.svg?branch=master' alt='Coverage Status' /></a>
+  <a href='https://coveralls.io/github/RustRome/songkick-api?branch=master'>
+    <img src='https://coveralls.io/repos/github/RustRome/songkick-api/badge.svg?branch=master' alt='Coverage Status' />
+  </a>
 
   <a href="https://crates.io/crates/songkick-api">
     <img src="https://img.shields.io/crates/d/songkick-api.svg?style=flat-square"
       alt="Download" />
   </a>
+
   <a href="https://docs.rs/songkick-api">
     <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
       alt="docs.rs docs" />
