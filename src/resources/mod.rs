@@ -1,4 +1,4 @@
-use SkResult;
+use crate::SkResult;
 use serde_json::Value;
 use std::marker::Sized;
 
@@ -9,8 +9,8 @@ pub mod venue;
 pub mod metro_area;
 pub mod country;
 
-pub use resources::artist::Artist as Artist;
-pub use resources::event::Event as Event;
+pub use crate::resources::artist::Artist as Artist;
+pub use crate::resources::event::Event as Event;
 
 pub trait Resource {
 

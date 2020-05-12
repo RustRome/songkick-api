@@ -1,8 +1,5 @@
-use hyper::*;
-use endpoints::{ArtistEndpoint, SkEndpoint, EventEndpoint};
+use crate::endpoints::{ArtistEndpoint, EventEndpoint, SkEndpoint};
 use std::sync::Arc;
-
-
 
 /// Represent the SongKick client used to fetch the data from SongKick API
 pub struct SongKick {
@@ -11,31 +8,27 @@ pub struct SongKick {
     /// Event EndPoint
     pub event: EventEndpoint,
     #[allow(dead_code)]
-    opts: Arc<SongKickOpts>
+    opts: Arc<SongKickOpts>,
 }
 /// Struct that holds SonKick Options
 pub struct SongKickOpts {
     /// API KEY
     api_key: String,
-    /// HTTP Client
-    client: Arc<Client>,
     /// API base path
-    base_path: &'static str
+    base_path: &'static str,
 }
 
-
 impl SongKickOpts {
-    pub fn new<T>(api_key: T, client: Arc<Client>, base_path: &'static str) -> SongKickOpts where T: Into<String> {
+    pub fn new<T>(api_key: T, base_path: &'static str) -> SongKickOpts
+    where
+        T: Into<String>,
+    {
         SongKickOpts {
             api_key: api_key.into(),
-            client: client,
-            base_path: base_path
+            base_path: base_path,
         }
     }
-    /// Return HTTP Client
-    pub fn client(&self) -> Arc<Client> {
-        self.client.clone()
-    }
+
     /// Return base_path
     pub fn base_path(&self) -> &str {
         self.base_path
@@ -48,21 +41,20 @@ impl SongKickOpts {
 }
 
 impl SongKick {
-    pub fn new<T>(api_key: T) -> SongKick where T: Into<String> {
-        let hyper = Arc::new(Client::new());
-
+    pub fn new<T>(api_key: T) -> SongKick
+    where
+        T: Into<String>,
+    {
         let opts = Arc::new(SongKickOpts {
             api_key: api_key.into(),
-            client: hyper,
-            base_path: "http://api.songkick.com/api/3.0"
+            base_path: "http://api.songkick.com/api/3.0",
         });
         let artist = ArtistEndpoint::new(opts.clone());
         let event = EventEndpoint::new(opts.clone());
         SongKick {
             artist: artist,
             event: event,
-            opts: opts
+            opts: opts,
         }
     }
 }
-

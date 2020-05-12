@@ -1,8 +1,8 @@
-use SkResult;
-use resources::Resource;
-use resources::metro_area::MetroArea;
+use crate::SkResult;
+use crate::resources::Resource;
+use crate::resources::metro_area::MetroArea;
 use serde_json::Value;
-use error::SkError;
+use crate::error::SkError;
 
 pub struct Venue {
     pub id: Option<u64>,
@@ -41,7 +41,7 @@ impl Resource for Venue {
 
                 let metro_area = match obj.get("metroArea") {
                     Some(val) => {
-                        let m = try!(MetroArea::from_json(&val));
+                        let m = MetroArea::from_json(&val)?;
                         Some(m)
                     }
                     None => None

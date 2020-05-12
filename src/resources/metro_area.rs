@@ -1,9 +1,9 @@
-use SkResult;
-use resources::Resource;
+use crate::SkResult;
+use crate::resources::Resource;
 use serde_json::Value;
-use resources::country::Country;
-use error::SkError;
-use util::json::{get_str, get_u64};
+use crate::resources::country::Country;
+use crate::error::SkError;
+use crate::util::json::{get_str, get_u64};
 
 pub struct MetroArea {
     pub id: u64,
@@ -18,13 +18,13 @@ impl Resource for MetroArea {
         match source.as_object() {
             Some(obj) => {
 
-                let id = try!(get_u64(obj, "id"));
-                let display_name = try!(get_str(obj, "displayName"));
-                let uri = try!(get_str(obj, "uri"));
+                let id = get_u64(obj, "id")?;
+                let display_name = get_str(obj, "displayName")?;
+                let uri = get_str(obj, "uri")?;
 
                 let country = obj.get("country").unwrap();
 
-                let country = try!(Country::from_json(&country));
+                let country = Country::from_json(&country)?;
 
                 Ok(MetroArea {
                     id: id,

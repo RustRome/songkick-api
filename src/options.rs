@@ -1,4 +1,3 @@
-
 //!  Contains Struct for Building Options used in requests
 //!
 //!
@@ -36,35 +35,31 @@
 //!
 //! ```
 
-
-use util::encode;
+use crate::util::encode;
 
 /// Struct used for filtering, paging and sorting options
 pub struct Options {
     paging: Option<Paging>,
     filter: Option<Filter>,
-    sort: Option<Sort>
+    sort: Option<Sort>,
 }
-
 
 struct Filter {
     artist_name: Option<String>,
     min_date: Option<String>,
     max_date: Option<String>,
-    location: Option<String>
+    location: Option<String>,
 }
 
 pub enum Sort {
     ASC,
-    DESC
+    DESC,
 }
-
 
 struct Paging {
     per_page: u64,
-    page: u64
+    page: u64,
 }
-
 
 /// Struct used for building filters
 pub struct FilterBuilder {
@@ -72,7 +67,7 @@ pub struct FilterBuilder {
     artist_name: Option<String>,
     min_date: Option<String>,
     max_date: Option<String>,
-    location: Option<String>
+    location: Option<String>,
 }
 
 impl FilterBuilder {
@@ -86,25 +81,36 @@ impl FilterBuilder {
         }
     }
 
-
-    pub fn artist_name<T>(&mut self, name: T) -> &mut FilterBuilder where T : Into<String> {
+    pub fn artist_name<T>(&mut self, name: T) -> &mut FilterBuilder
+    where
+        T: Into<String>,
+    {
         self.empty = false;
         self.artist_name = Some(name.into());
         self
     }
 
-    pub fn min_date<T>(&mut self, min_date: T) -> &mut FilterBuilder where T : Into<String>{
+    pub fn min_date<T>(&mut self, min_date: T) -> &mut FilterBuilder
+    where
+        T: Into<String>,
+    {
         self.empty = false;
         self.min_date = Some(min_date.into());
         self
     }
-    pub fn max_date<T>(&mut self, max_date: T) -> &mut FilterBuilder where T : Into<String> {
+    pub fn max_date<T>(&mut self, max_date: T) -> &mut FilterBuilder
+    where
+        T: Into<String>,
+    {
         self.empty = false;
         self.max_date = Some(max_date.into());
         self
     }
 
-    pub fn location<T>(&mut self, location: T) -> &mut FilterBuilder where T : Into<String> {
+    pub fn location<T>(&mut self, location: T) -> &mut FilterBuilder
+    where
+        T: Into<String>,
+    {
         self.empty = false;
         self.location = Some(location.into());
         self
@@ -112,15 +118,13 @@ impl FilterBuilder {
 
     fn build(self) -> Option<Filter> {
         match self.empty {
-            false => {
-                Some(Filter {
-                    max_date: self.max_date,
-                    min_date: self.min_date,
-                    artist_name: self.artist_name,
-                    location: self.location
-                })
-            },
-            true => None
+            false => Some(Filter {
+                max_date: self.max_date,
+                min_date: self.min_date,
+                artist_name: self.artist_name,
+                location: self.location,
+            }),
+            true => None,
         }
     }
 }
@@ -128,9 +132,8 @@ impl FilterBuilder {
 pub struct OptionsBuilder {
     filter: FilterBuilder,
     paging: Option<Paging>,
-    sort: Option<Sort>
+    sort: Option<Sort>,
 }
-
 
 impl OptionsBuilder {
     pub fn new() -> OptionsBuilder {
@@ -144,7 +147,7 @@ impl OptionsBuilder {
     pub fn paging(mut self, page: u64, per_page: u64) -> OptionsBuilder {
         self.paging = Some(Paging {
             per_page: per_page,
-            page: page
+            page: page,
         });
         self
     }
@@ -153,7 +156,10 @@ impl OptionsBuilder {
         self
     }
 
-    pub fn filter<F>(mut self, filter: F) -> OptionsBuilder where F: Fn(&mut FilterBuilder) {
+    pub fn filter<F>(mut self, filter: F) -> OptionsBuilder
+    where
+        F: Fn(&mut FilterBuilder),
+    {
         filter(&mut self.filter);
         self
     }
@@ -166,12 +172,10 @@ impl OptionsBuilder {
     }
 }
 
-
 pub fn format_with_options(url: &str, options: Option<Options>) -> String {
     match options {
         Some(opts) => {
             let mut new_url = String::from(url);
-
 
             // filtering
 
@@ -206,37 +210,49 @@ pub fn format_with_options(url: &str, options: Option<Options>) -> String {
                 new_url = format!("{}&order={}", new_url, order);
             }
 
-
             new_url
         }
-        None => String::from(url)
+        None => String::from(url),
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use options::OptionsBuilder;
-    use client::SongKickOpts;
+    use crate::client::SongKickOpts;
+    use crate::options::format_with_options;
+    use crate::options::OptionsBuilder;
+    use crate::options::Sort;
     use std::sync::Arc;
-    use hyper::*;
-    use options::format_with_options;
-    use options::Sort;
-
 
     #[test]
     fn no_options() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}/{}/calendar.json?apikey={}", sk.base_path(), "artists", 253846, sk.api_key());
+        let url = format!(
+            "{}/{}/{}/calendar.json?apikey={}",
+            sk.base_path(),
+            "artists",
+            253846,
+            sk.api_key()
+        );
 
-        assert_eq!("http://api.songkick.com/api/3.0/artists/253846/calendar.json?apikey=DUMMY", format_with_options(&url, None));
+        assert_eq!(
+            "http://api.songkick.com/api/3.0/artists/253846/calendar.json?apikey=DUMMY",
+            format_with_options(&url, None)
+        );
     }
 
     #[test]
     fn artist_calendar_pagination() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}/{}/calendar.json?apikey={}", sk.base_path(), "artists", 253846, sk.api_key());
+        let url = format!(
+            "{}/{}/{}/calendar.json?apikey={}",
+            sk.base_path(),
+            "artists",
+            253846,
+            sk.api_key()
+        );
 
         let options = OptionsBuilder::new().paging(2, 25).build();
 
@@ -247,18 +263,33 @@ mod tests {
     fn artist_calendar_sort() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}/{}/calendar.json?apikey={}", sk.base_path(), "artists", 253846, sk.api_key());
+        let url = format!(
+            "{}/{}/{}/calendar.json?apikey={}",
+            sk.base_path(),
+            "artists",
+            253846,
+            sk.api_key()
+        );
 
         let options = OptionsBuilder::new().sort(Sort::DESC).build();
 
-        assert_eq!("http://api.songkick.com/api/3.0/artists/253846/calendar.json?apikey=DUMMY&order=desc", format_with_options(&url, Some(options)));
+        assert_eq!(
+            "http://api.songkick.com/api/3.0/artists/253846/calendar.json?apikey=DUMMY&order=desc",
+            format_with_options(&url, Some(options))
+        );
     }
 
     #[test]
     fn artist_calendar_sort_and_pagination() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}/{}/calendar.json?apikey={}", sk.base_path(), "artists", 253846, sk.api_key());
+        let url = format!(
+            "{}/{}/{}/calendar.json?apikey={}",
+            sk.base_path(),
+            "artists",
+            253846,
+            sk.api_key()
+        );
 
         let options = OptionsBuilder::new().paging(2, 25).sort(Sort::DESC).build();
 
@@ -269,11 +300,19 @@ mod tests {
     fn event_search_with_location_and_name() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}.json?apikey={}", sk.base_path(), "events", sk.api_key());
+        let url = format!(
+            "{}/{}.json?apikey={}",
+            sk.base_path(),
+            "events",
+            sk.api_key()
+        );
 
-        let options = OptionsBuilder::new().filter(|f| {
-            f.artist_name(String::from("Radiohead")).location(String::from("clientip"));
-        }).build();
+        let options = OptionsBuilder::new()
+            .filter(|f| {
+                f.artist_name(String::from("Radiohead"))
+                    .location(String::from("clientip"));
+            })
+            .build();
 
         let ass = "http://api.songkick.com/api/3.0/events.json?apikey=DUMMY&artist_name=Radiohead&location=clientip";
         assert_eq!(ass, format_with_options(&url, Some(options)));
@@ -283,18 +322,26 @@ mod tests {
     fn artist_calendar_filter() {
         let sk = mock_sk_options();
 
-        let url = format!("{}/{}/{}/calendar.json?apikey={}", sk.base_path(), "artists", 253846, sk.api_key());
+        let url = format!(
+            "{}/{}/{}/calendar.json?apikey={}",
+            sk.base_path(),
+            "artists",
+            253846,
+            sk.api_key()
+        );
 
-        let options = OptionsBuilder::new().filter(|f| {
-            f.min_date(String::from("2017-06-06")).max_date(String::from("2017-06-09"));
-        }).paging(1, 5).sort(Sort::DESC).build();
+        let options = OptionsBuilder::new()
+            .filter(|f| {
+                f.min_date(String::from("2017-06-06"))
+                    .max_date(String::from("2017-06-09"));
+            })
+            .paging(1, 5)
+            .sort(Sort::DESC)
+            .build();
         assert_eq!("http://api.songkick.com/api/3.0/artists/253846/calendar.json?apikey=DUMMY&min_date=2017%2D06%2D06&max_date=2017%2D06%2D09&page=1&per_page=5&order=desc", format_with_options(&url, Some(options)));
     }
 
-
     fn mock_sk_options() -> SongKickOpts {
-        let hyper = Arc::new(Client::new());
-
-        SongKickOpts::new(String::from("DUMMY"), hyper, "http://api.songkick.com/api/3.0")
+        SongKickOpts::new(String::from("DUMMY"), "http://api.songkick.com/api/3.0")
     }
 }
